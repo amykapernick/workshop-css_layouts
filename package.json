@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "DEBUG=Eleventy* eleventy --serve",
+    "start": "eleventy --serve",
     "start:hotel": "eleventy --serve --port=$PORT",
     "build": "eleventy",
     "cy:open": "cypress open"

@@ -126,3 +126,9 @@ aside .speakers .bio p:first-child {
 	margin: 0 0 10px 10px;
 	width: 200px;
 }
+
+section article, 
+.speakers figure {
+	margin: 0;
+	padding: 0;
+}
