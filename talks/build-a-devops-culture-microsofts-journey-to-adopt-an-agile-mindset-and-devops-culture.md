@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Build a DevOps Culture: Microsoft's Journey to adopt an Agile Mindset and DevOps culture
-link: https://ndcoslo.com/talk/build-a-devops-culture-microsofts-journey-to-adopt-an-agile-mindset-and-devops-culture/
+title: "Build a DevOps Culture: Microsoft's Journey to adopt an Agile Mindset and DevOps culture"
+talkUrl: 'https://ndcoslo.com/talk/build-a-devops-culture-microsofts-journey-to-adopt-an-agile-mindset-and-devops-culture/'
 speakers: [mickey-gousset]
 day: Friday
 time: 16:20 - 17:20

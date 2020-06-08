@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Improving with C#: 8 and Beyond
-link: https://ndcoslo.com/talk/improving-with-c-8-and-beyond/
+title: 'Improving with C#: 8 and Beyond'
+talkUrl: 'https://ndcoslo.com/talk/improving-with-c-8-and-beyond/'
 speakers: [filip-ekberg]
 day: Thursday
 time: 10:20 - 11:20

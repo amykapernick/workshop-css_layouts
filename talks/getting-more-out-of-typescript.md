@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Getting more out of TypeScript
-link: https://ndcoslo.com/talk/getting-more-out-of-typescript/
+talkUrl: 'https://ndcoslo.com/talk/getting-more-out-of-typescript/'
 speakers: [jake-ginnivan]
 day: Wednesday
 time: 10:20 - 11:20

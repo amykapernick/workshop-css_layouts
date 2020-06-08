@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Vue.js is going to take the world
-link: https://ndcoslo.com/talk/vue-js-is-going-to-take-the-world/
+talkUrl: 'https://ndcoslo.com/talk/vue-js-is-going-to-take-the-world/'
 speakers: [thiago-passos]
 day: Wednesday
 time: 13:40 - 14:40

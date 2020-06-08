@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Eventing with Knative and Cloud Run: From Basics to Advanced
-link: https://ndcoslo.com/talk/eventing-with-knative-and-cloud-run-from-basics-to-advanced/
+title: 'Eventing with Knative and Cloud Run: From Basics to Advanced'
+talkUrl: 'https://ndcoslo.com/talk/eventing-with-knative-and-cloud-run-from-basics-to-advanced/'
 speakers: [mete-atamel]
 day: Wednesday
 time: 15:00 - 16:00

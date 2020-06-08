@@ -2,7 +2,7 @@
 tags: workshops
 layout: layouts/workshop.html
 title: Modern distributed systems with gRPC in ASP.NET Core 3
-link: https://ndcoslo.com/workshop/modern-distributed-systems-with-grpc-in-asp-net-core-3/
+talkUrl: 'https://ndcoslo.com/workshop/modern-distributed-systems-with-grpc-in-asp-net-core-3/'
 speakers: [mark-rendle]
 day: 8 - 9 Jun
 start: 09:00

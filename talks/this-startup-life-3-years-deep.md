@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: This Startup Life: 3 Years Deep
-link: https://ndcoslo.com/talk/this-startup-life-3-years-deep/
+title: 'This Startup Life: 3 Years Deep'
+talkUrl: 'https://ndcoslo.com/talk/this-startup-life-3-years-deep/'
 speakers: [ben-cull]
 day: Wednesday
 time: 11:40 - 12:40

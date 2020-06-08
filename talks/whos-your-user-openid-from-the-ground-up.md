@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Who's your user? OpenID from the ground-up
-link: https://ndcoslo.com/talk/whos-your-user-openid-from-the-ground-up/
+talkUrl: 'https://ndcoslo.com/talk/whos-your-user-openid-from-the-ground-up/'
 speakers: [johannes-brodwall]
 day: Wednesday
 time: 10:20 - 11:20

@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Does Your Codebase Spark Joy?
-link: https://ndcoslo.com/talk/does-your-codebase-spark-joy/
+talkUrl: 'https://ndcoslo.com/talk/does-your-codebase-spark-joy/'
 speakers: [jenna-pederson]
 day: Thursday
 time: 15:00 - 16:00

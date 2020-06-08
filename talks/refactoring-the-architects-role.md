@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Refactoring the Architect’s role
-link: https://ndcoslo.com/talk/refactoring-the-architects-role/
+talkUrl: 'https://ndcoslo.com/talk/refactoring-the-architects-role/'
 speakers: [yogi-aradhye]
 day: Wednesday
 time: 16:20 - 17:20

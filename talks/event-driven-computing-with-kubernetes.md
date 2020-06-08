@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Event-driven computing with Kubernetes
-link: https://ndcoslo.com/talk/event-driven-computing-with-kubernetes/
+talkUrl: 'https://ndcoslo.com/talk/event-driven-computing-with-kubernetes/'
 speakers: [jakob-ehn]
 day: Wednesday
 time: 11:40 - 12:40

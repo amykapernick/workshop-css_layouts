@@ -6,7 +6,7 @@ body {
 		'h 			h 		h'
 		'content	content	content'
 		'footer		footer	footer';
-	min-height: 100vh;
+	height: 100vh;
 }
 
 header {
@@ -19,11 +19,27 @@ header {
 main {
 	grid-area: content;
 	display: grid;
-	grid-template-columns: 1fr 2fr;
+	grid-template-columns: 2fr 1fr;
+	overflow-y: auto;
+}
+
+.speakers {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .listing {
 	display: block;
+}
+
+.listing.speakers {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 200px);
+	grid-gap: 20px;
+}
+
+.listing.speakers h1 {
+	grid-column: 1 / -1;
 }
 
 footer {
@@ -38,6 +54,7 @@ nav ul {
 }
 
 .content {
+	clear: both;
 	grid-column: span 2;
 	display: grid;
 	grid-template-columns: 2fr 1fr;
@@ -46,6 +63,18 @@ nav ul {
 		'h 		talks'
 		'bio	talks';
 	grid-column-gap: 20px;
+}
+
+.content img {
+	float: right;
+}
+
+aside .speakers img {
+	float: left;
+}
+
+aside .speakers li {
+	clear: both;
 }
 
 div {

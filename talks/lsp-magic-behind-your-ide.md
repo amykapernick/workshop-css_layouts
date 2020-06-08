@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: LSP - magic behind your IDE
-link: https://ndcoslo.com/talk/lsp-magic-behind-your-ide/
+talkUrl: 'https://ndcoslo.com/talk/lsp-magic-behind-your-ide/'
 speakers: [krzysztof-cieślak]
 day: Thursday
 time: 09:00 - 10:00

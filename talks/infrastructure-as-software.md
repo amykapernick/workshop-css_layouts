@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Infrastructure as Software
-link: https://ndcoslo.com/talk/infrastructure-as-software/
+talkUrl: 'https://ndcoslo.com/talk/infrastructure-as-software/'
 speakers: [paul-stack]
 day: Friday
 time: 10:20 - 11:20

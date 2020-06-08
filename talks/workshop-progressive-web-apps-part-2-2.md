@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Workshop: Progressive Web Apps. Part 2/2
-link: https://ndcoslo.com/talk/workshop-progressive-web-apps-part-2-2/
+title: 'Workshop: Progressive Web Apps. Part 2/2'
+talkUrl: 'https://ndcoslo.com/talk/workshop-progressive-web-apps-part-2-2/'
 speakers: [craig-west]
 day: Thursday
 time: 11:40 - 12:40

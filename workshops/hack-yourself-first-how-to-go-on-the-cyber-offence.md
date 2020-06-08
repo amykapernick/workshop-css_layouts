@@ -1,8 +1,8 @@
 ---
 tags: workshops
 layout: layouts/workshop.html
-title: Hack Yourself First: How to go on the Cyber-Offence
-link: https://ndcoslo.com/workshop/hack-yourself-first-how-to-go-on-the-cyber-offence/
+title: 'Hack Yourself First: How to go on the Cyber-Offence'
+talkUrl: 'https://ndcoslo.com/workshop/hack-yourself-first-how-to-go-on-the-cyber-offence/'
 speakers: [troy-hunt,scott-helme]
 day: 8 - 9 Jun
 start: 09:00

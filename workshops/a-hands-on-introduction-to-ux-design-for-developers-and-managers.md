@@ -2,7 +2,7 @@
 tags: workshops
 layout: layouts/workshop.html
 title: A Hands-on Introduction to UX Design for Developers and Managers
-link: https://ndcoslo.com/workshop/a-hands-on-introduction-to-ux-design-for-developers-and-managers/
+talkUrl: 'https://ndcoslo.com/workshop/a-hands-on-introduction-to-ux-design-for-developers-and-managers/'
 speakers: [billy-hollis]
 day: 8 - 10 Jun
 start: 14:00

@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Building confidence in concurrent code with a model checker
-link: https://ndcoslo.com/talk/building-confidence-in-concurrent-code-with-a-model-checker/
+talkUrl: 'https://ndcoslo.com/talk/building-confidence-in-concurrent-code-with-a-model-checker/'
 speakers: [scott-wlaschin]
 day: Wednesday
 time: 16:20 - 17:20

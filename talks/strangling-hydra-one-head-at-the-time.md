@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Strangling Hydra one head at the time
-link: https://ndcoslo.com/talk/strangling-hydra-one-head-at-the-time/
+talkUrl: 'https://ndcoslo.com/talk/strangling-hydra-one-head-at-the-time/'
 speakers: [markus-fanebust-dregi]
 day: Friday
 time: 16:20 - 17:20

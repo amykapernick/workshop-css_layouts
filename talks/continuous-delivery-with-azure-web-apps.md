@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Continuous Delivery with Azure Web Apps
-link: https://ndcoslo.com/talk/continuous-delivery-with-azure-web-apps/
+talkUrl: 'https://ndcoslo.com/talk/continuous-delivery-with-azure-web-apps/'
 speakers: [vidar-kongsli]
 day: Friday
 time: 13:40 - 14:40

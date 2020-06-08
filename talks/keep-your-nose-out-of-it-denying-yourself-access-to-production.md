@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Keep your nose out of it. Denying yourself access to production
-link: https://ndcoslo.com/talk/keep-your-nose-out-of-it-denying-yourself-access-to-production/
+talkUrl: 'https://ndcoslo.com/talk/keep-your-nose-out-of-it-denying-yourself-access-to-production/'
 speakers: [glenn-f-henriksen]
 day: Friday
 time: 11:40 - 12:40

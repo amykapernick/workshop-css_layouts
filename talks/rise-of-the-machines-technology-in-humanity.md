@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Rise of the Machines – Technology in Humanity
-link: https://ndcoslo.com/talk/rise-of-the-machines-technology-in-humanity/
+talkUrl: 'https://ndcoslo.com/talk/rise-of-the-machines-technology-in-humanity/'
 speakers: [lars-klint]
 day: Thursday
 time: 09:00 - 10:00

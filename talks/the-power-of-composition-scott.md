@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: The Power of Composition
-link: https://ndcoslo.com/talk/the-power-of-composition-scott/
+talkUrl: 'https://ndcoslo.com/talk/the-power-of-composition-scott/'
 speakers: [scott-wlaschin]
 day: Thursday
 time: 09:00 - 10:00

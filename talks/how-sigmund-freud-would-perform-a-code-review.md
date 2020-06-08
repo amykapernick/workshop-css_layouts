@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: How Sigmund Freud would perform a code review?
-link: https://ndcoslo.com/talk/how-sigmund-freud-would-perform-a-code-review/
+talkUrl: 'https://ndcoslo.com/talk/how-sigmund-freud-would-perform-a-code-review/'
 speakers: [piotr-czajka]
 day: Thursday
 time: 09:00 - 10:00

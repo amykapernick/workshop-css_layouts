@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: F# as a Better Python
-link: https://ndcoslo.com/talk/f-as-a-better-python/
+talkUrl: 'https://ndcoslo.com/talk/f-as-a-better-python/'
 speakers: [phillip-carter]
 day: Thursday
 time: 16:20 - 17:20

@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Anatomy of ASP.NET Core Requests
-link: https://ndcoslo.com/talk/anatomy-of-asp-net-core-requests/
+talkUrl: 'https://ndcoslo.com/talk/anatomy-of-asp-net-core-requests/'
 speakers: [steve-gordon]
 day: Wednesday
 time: 16:20 - 17:20

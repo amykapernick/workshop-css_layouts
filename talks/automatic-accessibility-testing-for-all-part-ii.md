@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Workshop: Automatic Accessibility Testing for All - Part 2/2
-link: https://ndcoslo.com/talk/automatic-accessibility-testing-for-all-part-ii/
+title: 'Workshop: Automatic Accessibility Testing for All - Part 2/2'
+talkUrl: 'https://ndcoslo.com/talk/automatic-accessibility-testing-for-all-part-ii/'
 speakers: [cecilie-haugstvedt]
 day: Thursday
 time: 15:00 - 16:00

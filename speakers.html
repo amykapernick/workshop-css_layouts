@@ -1,12 +1,13 @@
 {% include 'header.html' %}
-<main class="listing">
+<main class="listing speakers">
 	<h1>All Speakers</h1>
 	{% for speaker in collections.speakers %}
-	<article>
-		<a href="{{speaker.url | url}}">
-			{{speaker.data.name}}
-		</a>
-	</article>
+	<figure>
+		<img src="{{speaker.data.image}}" />
+		<figcaption><a href="{{speaker.url | url}}">
+				{{speaker.data.name}}
+			</a></figcaption>
+	</figure>
 	{% endfor %}
 </main>
 {% include 'footer.html' %}

@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Domain-Driven Refactoring
-link: https://ndcoslo.com/talk/domain-driven-refactoring/
+talkUrl: 'https://ndcoslo.com/talk/domain-driven-refactoring/'
 speakers: [jimmy-bogard]
 day: Wednesday
 time: 17:40 - 18:40

@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: How to Build an Inaccessible App
-link: https://ndcoslo.com/talk/how-to-build-an-inaccessible-app/
+talkUrl: 'https://ndcoslo.com/talk/how-to-build-an-inaccessible-app/'
 speakers: [amy-kapernick]
 day: Friday
 time: 10:20 - 11:20

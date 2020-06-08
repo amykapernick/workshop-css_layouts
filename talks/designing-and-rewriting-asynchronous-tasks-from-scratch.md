@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Designing and rewriting asynchronous tasks from scratch
-link: https://ndcoslo.com/talk/designing-and-rewriting-asynchronous-tasks-from-scratch/
+talkUrl: 'https://ndcoslo.com/talk/designing-and-rewriting-asynchronous-tasks-from-scratch/'
 speakers: [kevin-gosse]
 day: Wednesday
 time: 17:40 - 18:40

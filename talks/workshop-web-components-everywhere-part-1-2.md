@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Workshop: Web Components Everywhere! Part 1/2
-link: https://ndcoslo.com/talk/workshop-web-components-everywhere-part-1-2/
+title: 'Workshop: Web Components Everywhere! Part 1/2'
+talkUrl: 'https://ndcoslo.com/talk/workshop-web-components-everywhere-part-1-2/'
 speakers: [craig-west]
 day: Wednesday
 time: 10:20 - 11:20

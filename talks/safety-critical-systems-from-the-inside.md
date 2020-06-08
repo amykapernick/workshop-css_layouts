@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Safety-critical systems from the inside
-link: https://ndcoslo.com/talk/safety-critical-systems-from-the-inside/
+talkUrl: 'https://ndcoslo.com/talk/safety-critical-systems-from-the-inside/'
 speakers: [maciej-gajdzica]
 day: Wednesday
 time: 10:20 - 11:20

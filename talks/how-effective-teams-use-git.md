@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: How Effective Teams Use Git
-link: https://ndcoslo.com/talk/how-effective-teams-use-git/
+talkUrl: 'https://ndcoslo.com/talk/how-effective-teams-use-git/'
 speakers: [enrico-campidoglio]
 day: Wednesday
 time: 11:40 - 12:40

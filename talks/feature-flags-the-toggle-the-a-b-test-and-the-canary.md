@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Feature flags: the toggle, the A/B test and the canary
-link: https://ndcoslo.com/talk/feature-flags-the-toggle-the-a-b-test-and-the-canary/
+title: 'Feature flags: the toggle, the A/B test and the canary'
+talkUrl: 'https://ndcoslo.com/talk/feature-flags-the-toggle-the-a-b-test-and-the-canary/'
 speakers: [santosh-hari]
 day: Friday
 time: 16:20 - 17:20

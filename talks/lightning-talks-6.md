@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Lightning Talks
-link: https://ndcoslo.com/talk/lightning-talks-6/
+talkUrl: 'https://ndcoslo.com/talk/lightning-talks-6/'
 speakers: [andreas-mosti,marius-røed,lars-jakobsen,dmitry-konovalov,helge-grenager-solheim]
 day: Wednesday
 time: 15:00 - 16:00

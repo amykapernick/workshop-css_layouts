@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Ring-fence the Chaos: When Technical Teams Meet Organisational Systems
-link: https://ndcoslo.com/talk/ring-fence-the-chaos-when-technical-teams-meet-organisational-systems/
+title: 'Ring-fence the Chaos: When Technical Teams Meet Organisational Systems'
+talkUrl: 'https://ndcoslo.com/talk/ring-fence-the-chaos-when-technical-teams-meet-organisational-systems/'
 speakers: [anthony-dang]
 day: Thursday
 time: 17:40 - 18:40

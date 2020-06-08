@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: SQL Server hates you(?) - what the DBAs never told the developers
-link: https://ndcoslo.com/talk/sql-server-hates-you-what-the-dbas-never-told-the-developers/
+talkUrl: 'https://ndcoslo.com/talk/sql-server-hates-you-what-the-dbas-never-told-the-developers/'
 speakers: [alexander-arvidsson]
 day: Friday
 time: 10:20 - 11:20

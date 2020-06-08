@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Fluxing Up Your .NET Apps
-link: https://ndcoslo.com/talk/fluxing-up-your-net-apps/
+talkUrl: 'https://ndcoslo.com/talk/fluxing-up-your-net-apps/'
 speakers: [alex-dunn]
 day: Thursday
 time: 16:20 - 17:20

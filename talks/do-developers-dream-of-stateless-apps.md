@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Do Developers Dream of Stateless Apps?
-link: https://ndcoslo.com/talk/do-developers-dream-of-stateless-apps/
+talkUrl: 'https://ndcoslo.com/talk/do-developers-dream-of-stateless-apps/'
 speakers: [łukasz-gebel]
 day: Thursday
 time: 11:40 - 12:40

@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Embracing Simplicity
-link: https://ndcoslo.com/talk/embracing-simplicity/
+talkUrl: 'https://ndcoslo.com/talk/embracing-simplicity/'
 speakers: [guilherme-ferreira]
 day: Friday
 time: 15:00 - 16:00

@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Workshop: Drawing for IT Architects - Part 2/2
-link: https://ndcoslo.com/talk/drawing-for-it-architects-part-ii/
+title: 'Workshop: Drawing for IT Architects - Part 2/2'
+talkUrl: 'https://ndcoslo.com/talk/drawing-for-it-architects-part-ii/'
 speakers: [filip-van-laenen]
 day: Wednesday
 time: 15:00 - 16:00

@@ -15,20 +15,40 @@
 	<header>
 		<h1>{{name}}</h1>
 	</header>
-	<div>{{content | safe}}</div>
+	<div class="bio">
+		<img src="{{image}}" />
+		{{content | safe}}
+	</div>
 
 	<aside>
 		<h2>Talks</h2>
 		<ul class="talks">
 			{% for talk in collections.talks %}
 			{% set speaker = page.url | replace('/speakers/', '') | replace('/', '') %}
-			{% if speaker == talk.data.speaker %}
+			{% for talkSpeak in talk.data.speakers %}
+			{% if speaker == talkSpeak %}
 			<li>
 				<a href="{{talk.url | url}}">
 					{{talk.data.title}}
 				</a>
 			</li>
 			{% endif %}
+			{% endfor %}
+			{% endfor %}
+		</ul>
+		<h2>Workshops</h2>
+		<ul class="talks">
+			{% for talk in collections.workshops %}
+			{% set speaker = page.url | replace('/speakers/', '') | replace('/', '') %}
+			{% for talkSpeak in talk.data.speakers %}
+			{% if speaker == talkSpeak %}
+			<li>
+				<a href="{{talk.url | url}}">
+					{{talk.data.title}}
+				</a>
+			</li>
+			{% endif %}
+			{% endfor %}
 			{% endfor %}
 		</ul>
 	</aside>

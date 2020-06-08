@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: A Brief History of Computer Music
-link: https://ndcoslo.com/talk/a-brief-history-of-computer-music/
+talkUrl: 'https://ndcoslo.com/talk/a-brief-history-of-computer-music/'
 speakers: [anders-norås]
 day: Thursday
 time: 16:20 - 17:20

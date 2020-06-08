@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Rendering 3D Worlds in C#
-link: https://ndcoslo.com/talk/rendering-3d-worlds-in-c/
+talkUrl: 'https://ndcoslo.com/talk/rendering-3d-worlds-in-c/'
 speakers: [david-whitney]
 day: Friday
 time: 10:20 - 11:20

@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Domain Driven UI
-link: https://ndcoslo.com/talk/domain-driven-ui/
+talkUrl: 'https://ndcoslo.com/talk/domain-driven-ui/'
 speakers: [roman-sachse]
 day: Thursday
 time: 10:20 - 11:20

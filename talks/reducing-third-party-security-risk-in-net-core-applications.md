@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Reducing Third-Party Security Risk in .NET Core Applications
-link: https://ndcoslo.com/talk/reducing-third-party-security-risk-in-net-core-applications/
+talkUrl: 'https://ndcoslo.com/talk/reducing-third-party-security-risk-in-net-core-applications/'
 speakers: [niels-tanis]
 day: Thursday
 time: 16:20 - 17:20

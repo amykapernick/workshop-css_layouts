@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Owning Your Experience: Talking about Mental Health In the Workplace
-link: https://ndcoslo.com/talk/owning-your-experience-talking-about-mental-health-in-the-workplace/
+title: 'Owning Your Experience: Talking about Mental Health In the Workplace'
+talkUrl: 'https://ndcoslo.com/talk/owning-your-experience-talking-about-mental-health-in-the-workplace/'
 speakers: [arthur-doler]
 day: Thursday
 time: 16:20 - 17:20

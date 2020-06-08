@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Fighting Back Against a Distracted World - Increasing your Focus and Self-motivation
-link: https://ndcoslo.com/talk/fighting-back-against-a-distracted-world-increasing-your-focus-and-self-motivation/
+talkUrl: 'https://ndcoslo.com/talk/fighting-back-against-a-distracted-world-increasing-your-focus-and-self-motivation/'
 speakers: [stephen-haunts]
 day: Wednesday
 time: 10:20 - 11:20

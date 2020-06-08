@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Workshop: Kubernetes on Azure - Part 1/2
-link: https://ndcoslo.com/talk/workshop-kubernetes-on-azure-part-1-2/
+title: 'Workshop: Kubernetes on Azure - Part 1/2'
+talkUrl: 'https://ndcoslo.com/talk/workshop-kubernetes-on-azure-part-1-2/'
 speakers: [vishwas-lele]
 day: Friday
 time: 10:20 - 11:20

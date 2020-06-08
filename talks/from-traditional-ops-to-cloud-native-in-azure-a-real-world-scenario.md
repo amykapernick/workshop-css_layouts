@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: From Traditional Ops to Cloud-Native in Azure. A Real-World Scenario.
-link: https://ndcoslo.com/talk/from-traditional-ops-to-cloud-native-in-azure-a-real-world-scenario/
+talkUrl: 'https://ndcoslo.com/talk/from-traditional-ops-to-cloud-native-in-azure-a-real-world-scenario/'
 speakers: [sven-malvik]
 day: Friday
 time: 13:40 - 14:40

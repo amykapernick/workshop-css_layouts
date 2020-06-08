@@ -2,7 +2,7 @@
 tags: workshops
 layout: layouts/workshop.html
 title: Building a scalable backend with Akka.NET
-link: https://ndcoslo.com/workshop/building-a-scalable-backend-with-akka-net/
+talkUrl: 'https://ndcoslo.com/workshop/building-a-scalable-backend-with-akka-net/'
 speakers: [hannes-lowette]
 day: 8 - 9 Jun
 start: 09:00

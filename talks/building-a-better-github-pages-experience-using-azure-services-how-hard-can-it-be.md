@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Building a Better GitHub Pages Experience Using Azure Services, How Hard Can It be?
-link: https://ndcoslo.com/talk/building-a-better-github-pages-experience-using-azure-services-how-hard-can-it-be/
+talkUrl: 'https://ndcoslo.com/talk/building-a-better-github-pages-experience-using-azure-services-how-hard-can-it-be/'
 speakers: [chris-klug]
 day: Wednesday
 time: 10:20 - 11:20

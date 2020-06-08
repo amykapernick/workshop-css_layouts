@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Compassionate Components
-link: https://ndcoslo.com/talk/compassionate-components/
+talkUrl: 'https://ndcoslo.com/talk/compassionate-components/'
 speakers: [kristofer-selbekk]
 day: Thursday
 time: 15:00 - 16:00

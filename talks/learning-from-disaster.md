@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Learning from Disaster
-link: https://ndcoslo.com/talk/learning-from-disaster/
+talkUrl: 'https://ndcoslo.com/talk/learning-from-disaster/'
 speakers: [ian-hughes]
 day: Friday
 time: 10:20 - 11:20

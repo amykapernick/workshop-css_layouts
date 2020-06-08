@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Choosing The Best Mobile Framework
-link: https://ndcoslo.com/talk/choosing-the-best-mobile-framework/
+talkUrl: 'https://ndcoslo.com/talk/choosing-the-best-mobile-framework/'
 speakers: [brandon-minnick]
 day: Thursday
 time: 17:40 - 18:40

@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Data Mesh in Practice - How Europe’s Biggest Online Fashion Retailer Goes Beyond the Data Lake
-link: https://ndcoslo.com/talk/data-mesh-in-practice-how-europes-biggest-online-fashion-retailer-goes-beyond-the-data-lake/
+talkUrl: 'https://ndcoslo.com/talk/data-mesh-in-practice-how-europes-biggest-online-fashion-retailer-goes-beyond-the-data-lake/'
 speakers: [max-schultze,arif-wider]
 day: Friday
 time: 13:40 - 14:40

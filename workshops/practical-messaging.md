@@ -2,7 +2,7 @@
 tags: workshops
 layout: layouts/workshop.html
 title: Practical Messaging
-link: https://ndcoslo.com/workshop/practical-messaging/
+talkUrl: 'https://ndcoslo.com/workshop/practical-messaging/'
 speakers: [ian-cooper]
 day: 8 - 9 Jun
 start: 09:00

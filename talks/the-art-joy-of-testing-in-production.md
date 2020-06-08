@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: The art & joy of testing in production
-link: https://ndcoslo.com/talk/the-art-joy-of-testing-in-production/
+talkUrl: 'https://ndcoslo.com/talk/the-art-joy-of-testing-in-production/'
 speakers: [geert-van-der-cruijsen]
 day: Friday
 time: 15:00 - 16:00

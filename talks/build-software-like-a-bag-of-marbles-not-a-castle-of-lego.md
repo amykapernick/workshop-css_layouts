@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Build software like a bag of marbles, not a castle of LEGO®
-link: https://ndcoslo.com/talk/build-software-like-a-bag-of-marbles-not-a-castle-of-lego/
+title: Build software like a bag of marbles, not a castle of LEGO
+talkUrl: 'https://ndcoslo.com/talk/build-software-like-a-bag-of-marbles-not-a-castle-of-lego/'
 speakers: [hannes-lowette]
 day: Thursday
 time: 13:40 - 14:40

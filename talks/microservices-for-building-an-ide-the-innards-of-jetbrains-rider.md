@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Microservices for building an IDE – The innards of JetBrains Rider
-link: https://ndcoslo.com/talk/microservices-for-building-an-ide-the-innards-of-jetbrains-rider/
+talkUrl: 'https://ndcoslo.com/talk/microservices-for-building-an-ide-the-innards-of-jetbrains-rider/'
 speakers: [maarten-balliauw]
 day: Friday
 time: 15:00 - 16:00

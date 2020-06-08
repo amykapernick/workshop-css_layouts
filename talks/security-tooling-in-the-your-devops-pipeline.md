@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Security Tooling in the Your DevOps Pipeline
-link: https://ndcoslo.com/talk/security-tooling-in-the-your-devops-pipeline/
+talkUrl: 'https://ndcoslo.com/talk/security-tooling-in-the-your-devops-pipeline/'
 speakers: [nancy-gariché]
 day: Thursday
 time: 17:40 - 18:40

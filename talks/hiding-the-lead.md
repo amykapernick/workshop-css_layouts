@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Hiding The Lead
-link: https://ndcoslo.com/talk/hiding-the-lead/
+talkUrl: 'https://ndcoslo.com/talk/hiding-the-lead/'
 speakers: [sam-newman]
 day: Wednesday
 time: 10:20 - 11:20

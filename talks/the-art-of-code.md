@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: The Art of Code
-link: https://ndcoslo.com/talk/the-art-of-code/
+talkUrl: 'https://ndcoslo.com/talk/the-art-of-code/'
 speakers: [dylan-beattie]
 day: Thursday
 time: 15:00 - 16:00

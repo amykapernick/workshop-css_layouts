@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Measuring DevSecOps: building metrics to understand effectiveness and success.
-link: https://ndcoslo.com/talk/measuring-devsecops-building-metrics-to-understand-effectiveness-and-success/
+title: 'Measuring DevSecOps: building metrics to understand effectiveness and success.'
+talkUrl: 'https://ndcoslo.com/talk/measuring-devsecops-building-metrics-to-understand-effectiveness-and-success/'
 speakers: [victoria-almazova]
 day: Thursday
 time: 09:00 - 10:00

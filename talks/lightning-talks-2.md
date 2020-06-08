@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Lightning talks
-link: https://ndcoslo.com/talk/lightning-talks-2/
+talkUrl: 'https://ndcoslo.com/talk/lightning-talks-2/'
 speakers: [almir-mesic,hallstein-brøtan,eirik-isene,børge-wiik,sara-bergman,elin-tøndel]
 day: Thursday
 time: 13:40 - 14:40

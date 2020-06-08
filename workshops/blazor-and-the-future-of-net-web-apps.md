@@ -2,7 +2,7 @@
 tags: workshops
 layout: layouts/workshop.html
 title: Blazor and the future of .NET web apps
-link: https://ndcoslo.com/workshop/blazor-and-the-future-of-net-web-apps/
+talkUrl: 'https://ndcoslo.com/workshop/blazor-and-the-future-of-net-web-apps/'
 speakers: [chris-sainty,scott-hunter,steve-sanderson]
 day: 8 - 9 Jun
 start: 09:00

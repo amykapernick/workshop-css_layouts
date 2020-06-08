@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: From Tables to Documents -- Changing Your Database Mindset
-link: https://ndcoslo.com/talk/from-tables-to-documents-changing-your-database-mindset/
+talkUrl: 'https://ndcoslo.com/talk/from-tables-to-documents-changing-your-database-mindset/'
 speakers: [lauren-schaefer]
 day: Friday
 time: 15:00 - 16:00

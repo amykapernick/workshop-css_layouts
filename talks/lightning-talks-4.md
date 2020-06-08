@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Lightning Talks
-link: https://ndcoslo.com/talk/lightning-talks-4/
+talkUrl: 'https://ndcoslo.com/talk/lightning-talks-4/'
 speakers: [mufrid-krilic,eivind-arvesen,helge-grenager-solheim,nick-murison]
 day: Friday
 time: 13:40 - 14:40

@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Workshop: Build a Cloud Native Application with Distributed Application Runtime(Dapr) - Part 1/2
-link: https://ndcoslo.com/talk/build-a-cloud-native-application-with-distributed-application-runtimedapr-part-i/
+title: 'Workshop: Build a Cloud Native Application with Distributed Application Runtime(Dapr) - Part 1/2'
+talkUrl: 'https://ndcoslo.com/talk/build-a-cloud-native-application-with-distributed-application-runtimedapr-part-i/'
 speakers: [shailendra-singh-chauhan,lynn-orrell,mark-fussell]
 day: Wednesday
 time: 16:20 - 17:20

@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Immutable Infrastructure on Azure
-link: https://ndcoslo.com/talk/immutable-infrastructure-on-azure/
+talkUrl: 'https://ndcoslo.com/talk/immutable-infrastructure-on-azure/'
 speakers: [evgeny-borzenin]
 day: Friday
 time: 16:20 - 17:20

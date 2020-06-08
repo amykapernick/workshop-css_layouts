@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Where's my Stuff? Exploring data storage options in Azure
-link: https://ndcoslo.com/talk/wheres-my-stuff-exploring-data-storage-options-in-azure/
+talkUrl: 'https://ndcoslo.com/talk/wheres-my-stuff-exploring-data-storage-options-in-azure/'
 speakers: [mike-benkovich]
 day: Wednesday
 time: 17:40 - 18:40

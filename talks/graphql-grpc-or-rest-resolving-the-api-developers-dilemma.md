@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: GraphQL, gRPC or REST? Resolving the API Developer's Dilemma
-link: https://ndcoslo.com/talk/graphql-grpc-or-rest-resolving-the-api-developers-dilemma/
+talkUrl: 'https://ndcoslo.com/talk/graphql-grpc-or-rest-resolving-the-api-developers-dilemma/'
 speakers: [rob-crowley]
 day: Thursday
 time: 09:00 - 10:00

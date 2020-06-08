@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: The Boeing 737 MAX: Human Factors in Complex Systems
-link: https://ndcoslo.com/talk/the-boeing-737-max-human-factors-in-complex-systems/
+title: 'The Boeing 737 MAX: Human Factors in Complex Systems'
+talkUrl: 'https://ndcoslo.com/talk/the-boeing-737-max-human-factors-in-complex-systems/'
 speakers: [kyle-kotowick]
 day: Wednesday
 time: 13:40 - 14:40

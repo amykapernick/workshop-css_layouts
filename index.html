@@ -1,17 +1,20 @@
 {% include 'header.html' %}
 
 <main>
-	<section>
+	<section class="speakers">
 		<h2>Speakers</h2>
 		{% for speaker in collections.speakers %}
 		<article>
-			<a href="{{speaker.url | url}}">
-				{{speaker.data.name}}
-			</a>
+			<figure>
+				<img src="{{speaker.data.image}}" />
+				<figcaption><a href="{{speaker.url | url}}">
+						{{speaker.data.name}}
+					</a></figcaption>
+			</figure>
 		</article>
 		{% endfor %}
 	</section>
-	<section>
+	<section class="talks">
 		<h2>Talks</h2>
 		{% for talk in collections.talks %}
 		<article>

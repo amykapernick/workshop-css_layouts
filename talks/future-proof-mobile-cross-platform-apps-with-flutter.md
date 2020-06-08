@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Future-Proof Mobile Cross-Platform Apps with Flutter
-link: https://ndcoslo.com/talk/future-proof-mobile-cross-platform-apps-with-flutter/
+talkUrl: 'https://ndcoslo.com/talk/future-proof-mobile-cross-platform-apps-with-flutter/'
 speakers: [christian-wenz]
 day: Thursday
 time: 11:40 - 12:40

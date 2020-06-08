@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Navigating microservices with .NET Core
-link: https://ndcoslo.com/talk/navigating-microservices-with-net-core/
+talkUrl: 'https://ndcoslo.com/talk/navigating-microservices-with-net-core/'
 speakers: [ryan-nowak]
 day: Wednesday
 time: 17:40 - 18:40

@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: What is a software security initiative and do I need one?
-link: https://ndcoslo.com/talk/what-is-a-software-security-initiative-and-do-i-need-one/
+talkUrl: 'https://ndcoslo.com/talk/what-is-a-software-security-initiative-and-do-i-need-one/'
 speakers: [nick-murison]
 day: Friday
 time: 10:20 - 11:20

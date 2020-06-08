@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Computer Vision: Machine Learned Systems with Sight in Action
-link: https://ndcoslo.com/talk/computer-vision-machine-learned-systems-with-sight-in-action/
+title: 'Computer Vision: Machine Learned Systems with Sight in Action'
+talkUrl: 'https://ndcoslo.com/talk/computer-vision-machine-learned-systems-with-sight-in-action/'
 speakers: [tim-huckaby]
 day: Wednesday
 time: 17:40 - 18:40

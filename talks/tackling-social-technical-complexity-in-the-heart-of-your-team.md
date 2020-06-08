@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Tackling Social-technical complexity in the heart of your team
-link: https://ndcoslo.com/talk/tackling-social-technical-complexity-in-the-heart-of-your-team/
+talkUrl: 'https://ndcoslo.com/talk/tackling-social-technical-complexity-in-the-heart-of-your-team/'
 speakers: [kenny-baas-schwegler,evelyn-van-kelle]
 day: Friday
 time: 13:40 - 14:40

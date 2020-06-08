@@ -2,7 +2,7 @@
 tags: workshops
 layout: layouts/workshop.html
 title: Identity & Access Control for modern Applications and APIs using ASP.NET Core 3
-link: https://ndcoslo.com/workshop/identity-access-control-for-modern-web-applications-and-api/
+talkUrl: 'https://ndcoslo.com/workshop/identity-access-control-for-modern-web-applications-and-api/'
 speakers: [dominick-baier]
 day: 8 - 9 Jun
 start: 09:00

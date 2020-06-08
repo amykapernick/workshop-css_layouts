@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Agile is a Dirty Word
-link: https://ndcoslo.com/talk/agile-is-a-dirty-word/
+talkUrl: 'https://ndcoslo.com/talk/agile-is-a-dirty-word/'
 speakers: [james-birnie]
 day: Thursday
 time: 10:20 - 11:20

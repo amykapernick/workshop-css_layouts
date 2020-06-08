@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: The Care and Feeding of Software Engineers
-link: https://ndcoslo.com/talk/the-care-and-feeding-of-software-engineers-heather-downing/
+talkUrl: 'https://ndcoslo.com/talk/the-care-and-feeding-of-software-engineers-heather-downing/'
 speakers: [heather-downing]
 day: Thursday
 time: 17:40 - 18:40

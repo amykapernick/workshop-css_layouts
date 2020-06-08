@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Real-time serverless applications using Azure SignalR Service.
-link: https://ndcoslo.com/talk/real-time-serverless-applications-using-azure-signalr-service/
+talkUrl: 'https://ndcoslo.com/talk/real-time-serverless-applications-using-azure-signalr-service/'
 speakers: [nelly-sattari]
 day: Wednesday
 time: 13:40 - 14:40

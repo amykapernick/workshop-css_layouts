@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Smart home from scratch - a little C#, a little C++ and a whole lot of cheap Chinese electronics
-link: https://ndcoslo.com/talk/smart-home-from-scratch-a-little-c-a-little-c-and-a-whole-lot-of-cheap-chinese-electronics/
+talkUrl: 'https://ndcoslo.com/talk/smart-home-from-scratch-a-little-c-a-little-c-and-a-whole-lot-of-cheap-chinese-electronics/'
 speakers: [nir-dobovizki]
 day: Wednesday
 time: 17:40 - 18:40

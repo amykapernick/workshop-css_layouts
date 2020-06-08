@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Quantum Computing deep dive
-link: https://ndcoslo.com/talk/quantum-computing-deep-dive/
+talkUrl: 'https://ndcoslo.com/talk/quantum-computing-deep-dive/'
 speakers: [johnny-hooyberghs]
 day: Wednesday
 time: 15:00 - 16:00

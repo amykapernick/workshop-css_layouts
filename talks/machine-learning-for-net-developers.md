@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Machine Learning for .NET developers
-link: https://ndcoslo.com/talk/machine-learning-for-net-developers/
+talkUrl: 'https://ndcoslo.com/talk/machine-learning-for-net-developers/'
 speakers: [olia-gavrysh]
 day: Wednesday
 time: 17:40 - 18:40

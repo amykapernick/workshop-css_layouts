@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Workshop: Getting graphy - a hands-on crash course with Neo4j
-link: https://ndcoslo.com/talk/getting-graphy-a-hands-on-crash-course-with-neo4j/
+title: 'Workshop: Getting graphy - a hands-on crash course with Neo4j'
+talkUrl: 'https://ndcoslo.com/talk/getting-graphy-a-hands-on-crash-course-with-neo4j/'
 speakers: [ljubica-lazarevic]
 day: Thursday
 time: 13:40 - 14:40

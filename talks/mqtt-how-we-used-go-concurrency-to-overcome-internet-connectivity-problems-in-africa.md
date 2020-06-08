@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: MQTT: How we used Go Concurrency to overcome internet connectivity problems in Africa
-link: https://ndcoslo.com/talk/mqtt-how-we-used-go-concurrency-to-overcome-internet-connectivity-problems-in-africa/
+title: 'MQTT: How we used Go Concurrency to overcome internet connectivity problems in Africa'
+talkUrl: 'https://ndcoslo.com/talk/mqtt-how-we-used-go-concurrency-to-overcome-internet-connectivity-problems-in-africa/'
 speakers: [fadhili-juma]
 day: Friday
 time: 11:40 - 12:40

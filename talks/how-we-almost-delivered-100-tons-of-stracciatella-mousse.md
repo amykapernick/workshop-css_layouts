@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: How we almost delivered 100 tons of Stracciatella Mousse
-link: https://ndcoslo.com/talk/how-we-almost-delivered-100-tons-of-stracciatella-mousse/
+talkUrl: 'https://ndcoslo.com/talk/how-we-almost-delivered-100-tons-of-stracciatella-mousse/'
 speakers: [tobias-schröder,björn-wendland]
 day: Friday
 time: 11:40 - 12:40

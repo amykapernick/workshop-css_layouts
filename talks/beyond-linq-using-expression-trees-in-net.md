@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Beyond LINQ: Using Expression Trees in .NET
-link: https://ndcoslo.com/talk/beyond-linq-using-expression-trees-in-net/
+title: 'Beyond LINQ: Using Expression Trees in .NET'
+talkUrl: 'https://ndcoslo.com/talk/beyond-linq-using-expression-trees-in-net/'
 speakers: [maxim-arshinov]
 day: Thursday
 time: 15:00 - 16:00

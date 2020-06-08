@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: DevOps in Real Life, A How-To
-link: https://ndcoslo.com/talk/devops-in-real-life-a-how-to/
+talkUrl: 'https://ndcoslo.com/talk/devops-in-real-life-a-how-to/'
 speakers: [ola-petersson,jessica-andersson]
 day: Friday
 time: 11:40 - 12:40

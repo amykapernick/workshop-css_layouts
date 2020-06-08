@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Running 30 year old software as a cloud native SaaS solution with Docker and Kubernetes on Azure
-link: https://ndcoslo.com/talk/running-30-year-old-software-as-a-cloud-native-saas-solution-with-docker-and-kubernetes-on-azure/
+talkUrl: 'https://ndcoslo.com/talk/running-30-year-old-software-as-a-cloud-native-saas-solution-with-docker-and-kubernetes-on-azure/'
 speakers: [sander-aernouts,roy-cornelissen]
 day: Thursday
 time: 13:40 - 14:40

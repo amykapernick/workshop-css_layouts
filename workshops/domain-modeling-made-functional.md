@@ -2,7 +2,7 @@
 tags: workshops
 layout: layouts/workshop.html
 title: Domain Modeling Made Functional
-link: https://ndcoslo.com/workshop/domain-modeling-made-functional/
+talkUrl: 'https://ndcoslo.com/workshop/domain-modeling-made-functional/'
 speakers: [scott-wlaschin]
 day: 8 - 9 Jun
 start: 09:00

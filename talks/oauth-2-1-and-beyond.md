@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: “OAuth 2.1” and beyond
-link: https://ndcoslo.com/talk/oauth-2-1-and-beyond/
+talkUrl: 'https://ndcoslo.com/talk/oauth-2-1-and-beyond/'
 speakers: [dominick-baier]
 day: Wednesday
 time: 15:00 - 16:00

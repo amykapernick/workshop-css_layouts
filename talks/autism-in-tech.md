@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Autism in Tech
-link: https://ndcoslo.com/talk/autism-in-tech/
+talkUrl: 'https://ndcoslo.com/talk/autism-in-tech/'
 speakers: [dennie-declercq]
 day: Wednesday
 time: 11:40 - 12:40

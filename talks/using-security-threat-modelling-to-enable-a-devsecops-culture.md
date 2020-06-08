@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Using Security Threat Modelling to enable a DevSecOps Culture
-link: https://ndcoslo.com/talk/using-security-threat-modelling-to-enable-a-devsecops-culture/
+talkUrl: 'https://ndcoslo.com/talk/using-security-threat-modelling-to-enable-a-devsecops-culture/'
 speakers: [bruno-amaro-almeida]
 day: Thursday
 time: 11:40 - 12:40

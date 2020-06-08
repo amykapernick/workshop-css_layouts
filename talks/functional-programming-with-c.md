@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Functional Programming with C#
-link: https://ndcoslo.com/talk/functional-programming-with-c/
+talkUrl: 'https://ndcoslo.com/talk/functional-programming-with-c/'
 speakers: [simon-painter]
 day: Thursday
 time: 10:20 - 11:20

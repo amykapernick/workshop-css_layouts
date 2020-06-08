@@ -2,7 +2,7 @@
 tags: speakers
 layout: layouts/speaker.html
 name: Fadhili Juma
-role: Software Engineer, Speaker: Andela Kenya
+role: Software Engineer
 link: https://ndcoslo.com/speaker/fadhili-juma/
 image: https://ndcoslo.com/images/speaker/Fadhili_Juma.jpg
 twitter: ' @ffumwa'

@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Workshop: Capture The Flag - Hacking Competition - Part 1/2
-link: https://ndcoslo.com/talk/capture-the-flag-hacking-competition/
+title: 'Workshop: Capture The Flag - Hacking Competition - Part 1/2'
+talkUrl: 'https://ndcoslo.com/talk/capture-the-flag-hacking-competition/'
 speakers: [mathias-rørvik,greger-martinussen]
 day: Wednesday
 time: 15:00 - 16:00

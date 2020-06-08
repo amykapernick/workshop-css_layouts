@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Authoring ARM templates the easy way with FARMer
-link: https://ndcoslo.com/talk/authoring-arm-templates-the-easy-way-with-farmer/
+talkUrl: 'https://ndcoslo.com/talk/authoring-arm-templates-the-easy-way-with-farmer/'
 speakers: [isaac-abraham]
 day: Friday
 time: 11:40 - 12:40

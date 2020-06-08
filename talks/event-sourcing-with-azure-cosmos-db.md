@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Event Sourcing with Azure Cosmos DB
-link: https://ndcoslo.com/talk/event-sourcing-with-azure-cosmos-db/
+talkUrl: 'https://ndcoslo.com/talk/event-sourcing-with-azure-cosmos-db/'
 speakers: [sander-molenkamp]
 day: Friday
 time: 16:20 - 17:20

@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Workshop: Help! The team is not working! - Part 1/2
-link: https://ndcoslo.com/talk/help-the-team-is-not-working-part-i/
+title: 'Workshop: Help! The team is not working! - Part 1/2'
+talkUrl: 'https://ndcoslo.com/talk/help-the-team-is-not-working-part-i/'
 speakers: [thomas-almnes,benedicte-fjellanger]
 day: Thursday
 time: 16:20 - 17:20

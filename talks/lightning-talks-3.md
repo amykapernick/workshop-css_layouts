@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Lightning Talks
-link: https://ndcoslo.com/talk/lightning-talks-3/
+talkUrl: 'https://ndcoslo.com/talk/lightning-talks-3/'
 speakers: [elise-garborg-undheim,sindre-lindstad,scott-leaman]
 day: Friday
 time: 15:00 - 16:00

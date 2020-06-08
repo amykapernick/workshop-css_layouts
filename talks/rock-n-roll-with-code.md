@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Rock n Roll with code
-link: https://ndcoslo.com/talk/rock-n-roll-with-code/
+talkUrl: 'https://ndcoslo.com/talk/rock-n-roll-with-code/'
 speakers: [laura-silvanavičiūtė]
 day: Wednesday
 time: 16:20 - 17:20

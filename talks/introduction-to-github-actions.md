@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Introduction to GitHub Actions
-link: https://ndcoslo.com/talk/introduction-to-github-actions/
+talkUrl: 'https://ndcoslo.com/talk/introduction-to-github-actions/'
 speakers: [edward-thomson]
 day: Friday
 time: 15:00 - 16:00

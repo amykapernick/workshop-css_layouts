@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Make it Boring
-link: https://ndcoslo.com/talk/make-it-boring/
+talkUrl: 'https://ndcoslo.com/talk/make-it-boring/'
 speakers: [jeremy-wagner]
 day: Friday
 time: 16:20 - 17:20

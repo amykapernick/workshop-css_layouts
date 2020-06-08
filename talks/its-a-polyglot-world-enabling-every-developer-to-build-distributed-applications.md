@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: It's a Polyglot World. Enabling Every Developer to Build Distributed Applications
-link: https://ndcoslo.com/talk/its-a-polyglot-world-enabling-every-developer-to-build-distributed-applications/
+talkUrl: 'https://ndcoslo.com/talk/its-a-polyglot-world-enabling-every-developer-to-build-distributed-applications/'
 speakers: [shailendra-singh-chauhan,mark-fussell]
 day: Thursday
 time: 17:40 - 18:40

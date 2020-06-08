@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Type-setting in CSS: Using typography to enhance your design
-link: https://ndcoslo.com/talk/type-setting-in-css-using-typography-to-enhance-your-design/
+title: 'Type-setting in CSS: Using typography to enhance your design'
+talkUrl: 'https://ndcoslo.com/talk/type-setting-in-css-using-typography-to-enhance-your-design/'
 speakers: [martine-dowden]
 day: Friday
 time: 13:40 - 14:40

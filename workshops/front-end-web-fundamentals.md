@@ -2,7 +2,7 @@
 tags: workshops
 layout: layouts/workshop.html
 title: Front End Web Fundamentals
-link: https://ndcoslo.com/workshop/front-end-web-fundamentals/
+talkUrl: 'https://ndcoslo.com/workshop/front-end-web-fundamentals/'
 speakers: [amy-kapernick]
 day: 8 - 9 Jun
 start: 09:00

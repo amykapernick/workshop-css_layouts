@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: E2E testing goes Corporate
-link: https://ndcoslo.com/talk/e2e-testing-goes-corporate/
+talkUrl: 'https://ndcoslo.com/talk/e2e-testing-goes-corporate/'
 speakers: [björn-weström]
 day: Friday
 time: 13:40 - 14:40

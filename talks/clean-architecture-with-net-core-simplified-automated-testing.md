@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Clean Architecture with .NET Core: Simplified Automated Testing
-link: https://ndcoslo.com/talk/clean-architecture-with-net-core-simplified-automated-testing/
+title: 'Clean Architecture with .NET Core: Simplified Automated Testing'
+talkUrl: 'https://ndcoslo.com/talk/clean-architecture-with-net-core-simplified-automated-testing/'
 speakers: [jason-taylor]
 day: Thursday
 time: 10:20 - 11:20

@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Production readiness in Azure: A practical guide
-link: https://ndcoslo.com/talk/production-readiness-in-azure-a-practical-guide/
+title: 'Production readiness in Azure: A practical guide'
+talkUrl: 'https://ndcoslo.com/talk/production-readiness-in-azure-a-practical-guide/'
 speakers: [david-pazdera]
 day: Thursday
 time: 16:20 - 17:20

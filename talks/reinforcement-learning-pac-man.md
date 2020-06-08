@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Reinforcement Learning: Pac-Man
-link: https://ndcoslo.com/talk/reinforcement-learning-pac-man/
+title: 'Reinforcement Learning: Pac-Man'
+talkUrl: 'https://ndcoslo.com/talk/reinforcement-learning-pac-man/'
 speakers: [manu-gopinathan,malte-loller-andersen]
 day: Wednesday
 time: 13:40 - 14:40

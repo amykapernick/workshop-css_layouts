@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Reverse Engineering a Classic Video Game
-link: https://ndcoslo.com/talk/reverse-engineering-a-classic-video-game/
+talkUrl: 'https://ndcoslo.com/talk/reverse-engineering-a-classic-video-game/'
 speakers: [tim-comport]
 day: Thursday
 time: 13:40 - 14:40

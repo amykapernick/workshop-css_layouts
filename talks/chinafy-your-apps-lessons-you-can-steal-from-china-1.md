@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Chinafy your apps + Lessons you can steal from China
-link: https://ndcoslo.com/talk/chinafy-your-apps-lessons-you-can-steal-from-china-1/
+talkUrl: 'https://ndcoslo.com/talk/chinafy-your-apps-lessons-you-can-steal-from-china-1/'
 speakers: [adam-cogan]
 day: Thursday
 time: 09:00 - 10:00

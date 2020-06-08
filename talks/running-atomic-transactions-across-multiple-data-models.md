@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Running atomic transactions across multiple data models?!?
-link: https://ndcoslo.com/talk/running-atomic-transactions-across-multiple-data-models/
+talkUrl: 'https://ndcoslo.com/talk/running-atomic-transactions-across-multiple-data-models/'
 speakers: [loris-cro]
 day: Thursday
 time: 15:00 - 16:00

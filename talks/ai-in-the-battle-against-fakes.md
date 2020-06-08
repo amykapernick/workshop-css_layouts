@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: AI in the battle against fakes.
-link: https://ndcoslo.com/talk/ai-in-the-battle-against-fakes/
+talkUrl: 'https://ndcoslo.com/talk/ai-in-the-battle-against-fakes/'
 speakers: [henk-boelman]
 day: Wednesday
 time: 11:40 - 12:40

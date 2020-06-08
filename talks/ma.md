@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Deconstructing Deep Learning
-link: https://ndcoslo.com/talk/ma/
+talkUrl: 'https://ndcoslo.com/talk/ma/'
 speakers: [mark-west]
 day: Friday
 time: 11:40 - 12:40

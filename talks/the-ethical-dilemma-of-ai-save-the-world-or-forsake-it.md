@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: The Ethical Dilemma of AI: Save the World or Forsake It?
-link: https://ndcoslo.com/talk/the-ethical-dilemma-of-ai-save-the-world-or-forsake-it/
+title: 'The Ethical Dilemma of AI: Save the World or Forsake It?'
+talkUrl: 'https://ndcoslo.com/talk/the-ethical-dilemma-of-ai-save-the-world-or-forsake-it/'
 speakers: [tim-huckaby]
 day: Friday
 time: 16:20 - 17:20

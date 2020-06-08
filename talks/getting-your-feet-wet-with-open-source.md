@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Getting your feet wet with Open Source
-link: https://ndcoslo.com/talk/getting-your-feet-wet-with-open-source/
+talkUrl: 'https://ndcoslo.com/talk/getting-your-feet-wet-with-open-source/'
 speakers: [thomas-heartman]
 day: Friday
 time: 10:20 - 11:20

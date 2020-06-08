@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Uno - A Platform to Rule Them All
-link: https://ndcoslo.com/talk/uno-a-platform-to-rule-them-all/
+talkUrl: 'https://ndcoslo.com/talk/uno-a-platform-to-rule-them-all/'
 speakers: [kenzie-whalen]
 day: Thursday
 time: 15:00 - 16:00

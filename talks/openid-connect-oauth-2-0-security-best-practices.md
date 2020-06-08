@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: OpenID Connect & OAuth 2.0 – Security Best Practices
-link: https://ndcoslo.com/talk/openid-connect-oauth-2-0-security-best-practices/
+talkUrl: 'https://ndcoslo.com/talk/openid-connect-oauth-2-0-security-best-practices/'
 speakers: [dominick-baier]
 day: Wednesday
 time: 11:40 - 12:40

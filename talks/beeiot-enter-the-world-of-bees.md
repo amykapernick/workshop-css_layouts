@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: BeeIoT - Enter the World of Bees
-link: https://ndcoslo.com/talk/beeiot-enter-the-world-of-bees/
+talkUrl: 'https://ndcoslo.com/talk/beeiot-enter-the-world-of-bees/'
 speakers: [tom-erik-støwer,kim-bredesen]
 day: Friday
 time: 16:20 - 17:20

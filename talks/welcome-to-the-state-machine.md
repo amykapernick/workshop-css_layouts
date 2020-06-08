@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Welcome to the (state) machine
-link: https://ndcoslo.com/talk/welcome-to-the-state-machine/
+talkUrl: 'https://ndcoslo.com/talk/welcome-to-the-state-machine/'
 speakers: [mauro-servienti]
 day: Wednesday
 time: 15:00 - 16:00

@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Marten: Postgresql backed Document Db and Event Store for .Net Development
-link: https://ndcoslo.com/talk/marten-postgresql-backed-document-db-and-event-store-for-net-development/
+title: 'Marten: Postgresql backed Document Db and Event Store for .Net Development'
+talkUrl: 'https://ndcoslo.com/talk/marten-postgresql-backed-document-db-and-event-store-for-net-development/'
 speakers: [jeremy-d-miller]
 day: Friday
 time: 16:20 - 17:20

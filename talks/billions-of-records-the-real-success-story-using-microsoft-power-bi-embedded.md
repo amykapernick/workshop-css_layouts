@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Billions of records: the real success story using Microsoft Power BI Embedded
-link: https://ndcoslo.com/talk/billions-of-records-the-real-success-story-using-microsoft-power-bi-embedded/
+title: 'Billions of records: the real success story using Microsoft Power BI Embedded'
+talkUrl: 'https://ndcoslo.com/talk/billions-of-records-the-real-success-story-using-microsoft-power-bi-embedded/'
 speakers: [irina-dragunova]
 day: Thursday
 time: 11:40 - 12:40

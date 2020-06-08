@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Going fast and cheap with Bots, Sanity and Kubernetes
-link: https://ndcoslo.com/talk/going-fast-and-cheap-with-bots-sanity-and-kubernetes/
+talkUrl: 'https://ndcoslo.com/talk/going-fast-and-cheap-with-bots-sanity-and-kubernetes/'
 speakers: [olav-nybø]
 day: Thursday
 time: 11:40 - 12:40

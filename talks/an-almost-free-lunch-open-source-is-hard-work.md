@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: An almost free lunch - open source is hard work
-link: https://ndcoslo.com/talk/an-almost-free-lunch-open-source-is-hard-work/
+talkUrl: 'https://ndcoslo.com/talk/an-almost-free-lunch-open-source-is-hard-work/'
 speakers: [jørgen-kvalsvik]
 day: Wednesday
 time: 13:40 - 14:40

@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: A Tale Of Four Startups
-link: https://ndcoslo.com/talk/a-tale-of-four-startups/
+talkUrl: 'https://ndcoslo.com/talk/a-tale-of-four-startups/'
 speakers: [liam-westley]
 day: Wednesday
 time: 13:40 - 14:40

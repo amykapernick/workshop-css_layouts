@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Functional data that adapts to change
-link: https://ndcoslo.com/talk/functional-data-that-adapts-to-change/
+talkUrl: 'https://ndcoslo.com/talk/functional-data-that-adapts-to-change/'
 speakers: [don-syme]
 day: Thursday
 time: 11:40 - 12:40

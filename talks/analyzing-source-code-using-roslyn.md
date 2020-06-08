@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Analyzing source code using Roslyn
-link: https://ndcoslo.com/talk/analyzing-source-code-using-roslyn/
+talkUrl: 'https://ndcoslo.com/talk/analyzing-source-code-using-roslyn/'
 speakers: [erik-schierboom]
 day: Wednesday
 time: 13:40 - 14:40

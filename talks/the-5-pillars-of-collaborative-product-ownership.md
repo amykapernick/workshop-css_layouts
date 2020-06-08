@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: The 5 Pillars of Collaborative Product Ownership
-link: https://ndcoslo.com/talk/the-5-pillars-of-collaborative-product-ownership/
+talkUrl: 'https://ndcoslo.com/talk/the-5-pillars-of-collaborative-product-ownership/'
 speakers: [john-le-drew]
 day: Thursday
 time: 10:20 - 11:20

@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Living Style Guides: Bringing Designers and Developers Together
-link: https://ndcoslo.com/talk/living-style-guides-bringing-designers-and-developers-together/
+title: 'Living Style Guides: Bringing Designers and Developers Together'
+talkUrl: 'https://ndcoslo.com/talk/living-style-guides-bringing-designers-and-developers-together/'
 speakers: [tim-g-thomas]
 day: Thursday
 time: 16:20 - 17:20

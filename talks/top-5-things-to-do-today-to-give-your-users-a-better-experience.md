@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Top 5 Things to do Today to Give Your Users a Better Experience
-link: https://ndcoslo.com/talk/top-5-things-to-do-today-to-give-your-users-a-better-experience/
+talkUrl: 'https://ndcoslo.com/talk/top-5-things-to-do-today-to-give-your-users-a-better-experience/'
 speakers: [billy-hollis]
 day: Friday
 time: 15:00 - 16:00

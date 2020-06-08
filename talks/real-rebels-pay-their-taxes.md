@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Real rebels pay their taxes
-link: https://ndcoslo.com/talk/real-rebels-pay-their-taxes/
+talkUrl: 'https://ndcoslo.com/talk/real-rebels-pay-their-taxes/'
 speakers: [nils-norman-haukås]
 day: Friday
 time: 11:40 - 12:40

@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Kiss My Sass
-link: https://ndcoslo.com/talk/kiss-my-sass/
+talkUrl: 'https://ndcoslo.com/talk/kiss-my-sass/'
 speakers: [martine-dowden]
 day: Wednesday
 time: 15:00 - 16:00

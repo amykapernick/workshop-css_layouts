@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Kafka as a Platform: the Ecosystem from the Ground Up
-link: https://ndcoslo.com/talk/kafka-as-a-platform-the-ecosystem-from-the-ground-up/
+title: 'Kafka as a Platform: the Ecosystem from the Ground Up'
+talkUrl: 'https://ndcoslo.com/talk/kafka-as-a-platform-the-ecosystem-from-the-ground-up/'
 speakers: [robin-moffatt]
 day: Thursday
 time: 11:40 - 12:40

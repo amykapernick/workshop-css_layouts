@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: gRPC for ASP.NET Core, a new framework for high performance APIs
-link: https://ndcoslo.com/talk/grpc-for-asp-net-core-a-new-framework-for-high-performance-apis/
+talkUrl: 'https://ndcoslo.com/talk/grpc-for-asp-net-core-a-new-framework-for-high-performance-apis/'
 speakers: [james-newton-king]
 day: Wednesday
 time: 10:20 - 11:20

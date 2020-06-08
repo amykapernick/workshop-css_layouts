@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Lightning Talks
-link: https://ndcoslo.com/talk/lightning-talks-1/
+talkUrl: 'https://ndcoslo.com/talk/lightning-talks-1/'
 speakers: [niklas-bae-pedersen,andreas-lohne,ruby-jane-cabagnot,einar-w-høst]
 day: Wednesday
 time: 13:40 - 14:40

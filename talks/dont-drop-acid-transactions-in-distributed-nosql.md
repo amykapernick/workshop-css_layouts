@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Don’t Drop ACID - Transactions in Distributed NoSQL
-link: https://ndcoslo.com/talk/dont-drop-acid-transactions-in-distributed-nosql/
+talkUrl: 'https://ndcoslo.com/talk/dont-drop-acid-transactions-in-distributed-nosql/'
 speakers: [matthew-groves]
 day: Thursday
 time: 16:20 - 17:20

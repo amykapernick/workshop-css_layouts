@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: A Friendly Introduction to Deep Learning for Computer Vision
-link: https://ndcoslo.com/talk/a-friendly-introduction-to-deep-learning-for-computer-vision/
+talkUrl: 'https://ndcoslo.com/talk/a-friendly-introduction-to-deep-learning-for-computer-vision/'
 speakers: [seth-juarez]
 day: Wednesday
 time: 16:20 - 17:20

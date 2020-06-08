@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: TDD and the Terminator - An introduction to Test Driven Development
-link: https://ndcoslo.com/talk/tdd-and-the-terminator-an-introduction-to-test-driven-development/
+talkUrl: 'https://ndcoslo.com/talk/tdd-and-the-terminator-an-introduction-to-test-driven-development/'
 speakers: [layla-porter]
 day: Friday
 time: 15:00 - 16:00

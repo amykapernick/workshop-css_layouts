@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Workshop: Xamarin File->New to on your Mobile device
-link: https://ndcoslo.com/talk/xamarin-file-new-to-on-your-mobile-device/
+title: 'Workshop: Xamarin File->New to on your Mobile device'
+talkUrl: 'https://ndcoslo.com/talk/xamarin-file-new-to-on-your-mobile-device/'
 speakers: [clifford-agius]
 day: Thursday
 time: 09:00 - 10:00

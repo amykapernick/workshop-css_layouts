@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: DataOps for the Modern Data Warehouse on Microsoft Azure
-link: https://ndcoslo.com/talk/dataops-for-the-modern-data-warehouse-on-microsoft-azure/
+talkUrl: 'https://ndcoslo.com/talk/dataops-for-the-modern-data-warehouse-on-microsoft-azure/'
 speakers: [lace-lofranco]
 day: Thursday
 time: 13:40 - 14:40

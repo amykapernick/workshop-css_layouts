@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Teams Deliver Solutions, Leads Deliver Teams
-link: https://ndcoslo.com/talk/teams-deliver-solutions-leads-deliver-teams/
+talkUrl: 'https://ndcoslo.com/talk/teams-deliver-solutions-leads-deliver-teams/'
 speakers: [don-kelly]
 day: Thursday
 time: 17:40 - 18:40

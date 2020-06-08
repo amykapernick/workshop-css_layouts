@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Event Modeling
-link: https://ndcoslo.com/talk/event-modeling/
+talkUrl: 'https://ndcoslo.com/talk/event-modeling/'
 speakers: [adam-dymitruk]
 day: Wednesday
 time: 17:40 - 18:40

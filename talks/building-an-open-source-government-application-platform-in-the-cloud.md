@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Building an open source government application platform in the cloud
-link: https://ndcoslo.com/talk/building-an-open-source-government-application-platform-in-the-cloud/
+talkUrl: 'https://ndcoslo.com/talk/building-an-open-source-government-application-platform-in-the-cloud/'
 speakers: [stephanie-buadu,rune-t-larsen,nina-kylstad]
 day: Thursday
 time: 13:40 - 14:40

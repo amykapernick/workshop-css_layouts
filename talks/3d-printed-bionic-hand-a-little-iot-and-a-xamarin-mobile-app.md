@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: 3D printed Bionic Hand a little IOT and a Xamarin Mobile App
-link: https://ndcoslo.com/talk/3d-printed-bionic-hand-a-little-iot-and-a-xamarin-mobile-app/
+talkUrl: 'https://ndcoslo.com/talk/3d-printed-bionic-hand-a-little-iot-and-a-xamarin-mobile-app/'
 speakers: [clifford-agius]
 day: Wednesday
 time: 15:00 - 16:00

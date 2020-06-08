@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Megahertz, Gigahertz, Registers and Instructions: How does a CPU actually work?
-link: https://ndcoslo.com/talk/megahertz-gigahertz-registers-and-instructions-how-does-a-cpu-actually-work/
+title: 'Megahertz, Gigahertz, Registers and Instructions: How does a CPU actually work?'
+talkUrl: 'https://ndcoslo.com/talk/megahertz-gigahertz-registers-and-instructions-how-does-a-cpu-actually-work/'
 speakers: [kendall-miller]
 day: Thursday
 time: 17:40 - 18:40

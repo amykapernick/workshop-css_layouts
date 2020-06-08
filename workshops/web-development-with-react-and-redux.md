@@ -2,7 +2,7 @@
 tags: workshops
 layout: layouts/workshop.html
 title: Web Development with React and Redux
-link: https://ndcoslo.com/workshop/web-development-with-react-and-redux/
+talkUrl: 'https://ndcoslo.com/workshop/web-development-with-react-and-redux/'
 speakers: [damjan-vujnovic]
 day: 8 - 9 Jun
 start: 09:00

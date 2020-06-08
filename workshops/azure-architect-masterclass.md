@@ -2,7 +2,7 @@
 tags: workshops
 layout: layouts/workshop.html
 title:  Azure Architect Masterclass
-link: https://ndcoslo.com/workshop/azure-architect-masterclass/
+talkUrl: 'https://ndcoslo.com/workshop/azure-architect-masterclass/'
 speakers: [vishwas-lele]
 day: 8 - 10 Jun
 start: 14:00

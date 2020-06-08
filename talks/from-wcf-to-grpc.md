@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: From WCF to gRPC
-link: https://ndcoslo.com/talk/from-wcf-to-grpc/
+talkUrl: 'https://ndcoslo.com/talk/from-wcf-to-grpc/'
 speakers: [mark-rendle]
 day: Thursday
 time: 10:20 - 11:20

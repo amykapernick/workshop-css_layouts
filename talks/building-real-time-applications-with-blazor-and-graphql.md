@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Building real-time applications with Blazor and GraphQL
-link: https://ndcoslo.com/talk/building-real-time-applications-with-blazor-and-graphql/
+talkUrl: 'https://ndcoslo.com/talk/building-real-time-applications-with-blazor-and-graphql/'
 speakers: [michael-staib]
 day: Thursday
 time: 11:40 - 12:40

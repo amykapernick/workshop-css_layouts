@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Don't Fly Blind - Implementing Effective Application Instrumentation with Azure Application Insights
-link: https://ndcoslo.com/talk/dont-fly-blind-implementing-effective-application-instrumentation-with-azure-application-insights/
+talkUrl: 'https://ndcoslo.com/talk/dont-fly-blind-implementing-effective-application-instrumentation-with-azure-application-insights/'
 speakers: [john-garland]
 day: Thursday
 time: 15:00 - 16:00

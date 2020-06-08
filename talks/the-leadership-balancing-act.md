@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: The leadership balancing act - achieving success without burning out
-link: https://ndcoslo.com/talk/the-leadership-balancing-act/
+talkUrl: 'https://ndcoslo.com/talk/the-leadership-balancing-act/'
 speakers: [donna-edwards]
 day: Wednesday
 time: 10:20 - 11:20

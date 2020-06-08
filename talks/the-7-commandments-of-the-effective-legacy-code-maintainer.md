@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: The 7 commandments of the effective Legacy code maintainer
-link: https://ndcoslo.com/talk/the-7-commandments-of-the-effective-legacy-code-maintainer/
+talkUrl: 'https://ndcoslo.com/talk/the-7-commandments-of-the-effective-legacy-code-maintainer/'
 speakers: [dror-helper]
 day: Thursday
 time: 17:40 - 18:40

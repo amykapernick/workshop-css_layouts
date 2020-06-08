@@ -1,0 +1,12 @@
+{% include 'header.html' %}
+<main class="listing">
+	<h1>All Workshops</h1>
+	{% for talk in collections.workshops %}
+	<article>
+		<a href="{{talk.url | url}}">
+			{{talk.data.title}}
+		</a>
+	</article>
+	{% endfor %}
+</main>
+{% include 'footer.html' %}

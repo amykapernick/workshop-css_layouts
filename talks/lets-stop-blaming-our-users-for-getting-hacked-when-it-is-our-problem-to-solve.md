@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Let’s stop blaming our users for getting hacked when it is our problem to solve
-link: https://ndcoslo.com/talk/lets-stop-blaming-our-users-for-getting-hacked-when-it-is-our-problem-to-solve/
+talkUrl: 'https://ndcoslo.com/talk/lets-stop-blaming-our-users-for-getting-hacked-when-it-is-our-problem-to-solve/'
 speakers: [scott-brady]
 day: Thursday
 time: 15:00 - 16:00

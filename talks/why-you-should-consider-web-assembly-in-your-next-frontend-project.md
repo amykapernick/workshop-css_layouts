@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Why you should consider Web Assembly in your next frontend project
-link: https://ndcoslo.com/talk/why-you-should-consider-web-assembly-in-your-next-frontend-project/
+talkUrl: 'https://ndcoslo.com/talk/why-you-should-consider-web-assembly-in-your-next-frontend-project/'
 speakers: [håkan-silfvernagel]
 day: Wednesday
 time: 11:40 - 12:40

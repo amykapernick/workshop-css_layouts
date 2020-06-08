@@ -2,7 +2,7 @@
 tags: workshops
 layout: layouts/workshop.html
 title: Designing Microservices
-link: https://ndcoslo.com/workshop/designing-microservices/
+talkUrl: 'https://ndcoslo.com/workshop/designing-microservices/'
 speakers: [sam-newman]
 day: 8 - 9 Jun
 start: 09:00

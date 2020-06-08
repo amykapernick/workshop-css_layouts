@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: The Tyranny of Taylorism and how to spot agile lies
-link: https://ndcoslo.com/talk/the-tyranny-of-taylorism-and-how-to-spot-agile-lies/
+talkUrl: 'https://ndcoslo.com/talk/the-tyranny-of-taylorism-and-how-to-spot-agile-lies/'
 speakers: [martin-hinshelwood]
 day: Wednesday
 time: 11:40 - 12:40

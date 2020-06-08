@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: The "Guilded" Age: How a UX Guild can transform design at your company
-link: https://ndcoslo.com/talk/the-guilded-age-how-a-ux-guild-can-transform-design-at-your-company/
+title: 'The "Guilded" Age: How a UX Guild can transform design at your company'
+talkUrl: 'https://ndcoslo.com/talk/the-guilded-age-how-a-ux-guild-can-transform-design-at-your-company/'
 speakers: [ash-banaszek]
 day: Wednesday
 time: 16:20 - 17:20

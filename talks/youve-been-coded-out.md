@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: You’ve Been Coded Out
-link: https://ndcoslo.com/talk/youve-been-coded-out/
+talkUrl: 'https://ndcoslo.com/talk/youve-been-coded-out/'
 speakers: [lia-james]
 day: Friday
 time: 15:00 - 16:00

@@ -2,7 +2,7 @@
 tags: workshops
 layout: layouts/workshop.html
 title: Docker and Kubernetes Workshop
-link: https://ndcoslo.com/workshop/docker-and-kubernetes-workshop/
+talkUrl: 'https://ndcoslo.com/workshop/docker-and-kubernetes-workshop/'
 speakers: [shahid-iqbal]
 day: 8 - 9 Jun
 start: 09:00

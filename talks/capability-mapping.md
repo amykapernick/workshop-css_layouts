@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Capability Mapping
-link: https://ndcoslo.com/talk/capability-mapping/
+talkUrl: 'https://ndcoslo.com/talk/capability-mapping/'
 speakers: [ian-cooper]
 day: Thursday
 time: 10:20 - 11:20

@@ -1,8 +1,8 @@
 ---
 tags: talks
 layout: layouts/talk.html
-title: Keynote: Keep Talking
-link: https://ndcoslo.com/talk/keynote-keep-talking/
+title: 'Keynote: Keep Talking'
+talkUrl: 'https://ndcoslo.com/talk/keynote-keep-talking/'
 speakers: [dylan-beattie]
 day: Wednesday
 time: 09:00 - 10:00

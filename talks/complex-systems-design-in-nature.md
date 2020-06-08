@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: Complex systems design in nature
-link: https://ndcoslo.com/talk/complex-systems-design-in-nature/
+talkUrl: 'https://ndcoslo.com/talk/complex-systems-design-in-nature/'
 speakers: [ian-johnson]
 day: Wednesday
 time: 16:20 - 17:20

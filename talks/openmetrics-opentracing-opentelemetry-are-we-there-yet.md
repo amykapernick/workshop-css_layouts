@@ -2,7 +2,7 @@
 tags: talks
 layout: layouts/talk.html
 title: OpenMetrics, OpenTracing, OpenTelemetry - are we there yet?
-link: https://ndcoslo.com/talk/openmetrics-opentracing-opentelemetry-are-we-there-yet/
+talkUrl: 'https://ndcoslo.com/talk/openmetrics-opentracing-opentelemetry-are-we-there-yet/'
 speakers: [alexey-zimarev]
 day: Friday
 time: 11:40 - 12:40
