@@ -25,7 +25,7 @@ const Layout = () => (
 			<Route exact path="/">
 				<Home />
 			</Route>
-			<Route exact path="/week">
+			<Route path="/week/:weekId?">
 				<Week />
 			</Route>
 			<Route exact path="/month">
