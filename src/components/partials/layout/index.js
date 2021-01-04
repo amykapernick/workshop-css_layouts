@@ -10,6 +10,8 @@ import Home from '../../../pages/home';
 import Week from '../../../pages/weekly';
 import Month from '../../../pages/monthly';
 
+import '../../../scss/global.scss';
+
 const Layout = () => (
 	<Router>
 		<header>

@@ -1,17 +1,17 @@
 const newTasks = [
 	{
-		id: `107821979378`,
-		text: `Task 1`,
+		id: 107821979378,
+		name: `Task 1`,
 		completed: false
 	},
 	{
-		id: `164020381583`,
-		text: `Task 2`,
+		id: 164020381583,
+		name: `Task 2`,
 		completed: true
 	},
 	{
-		id: `1184065035300`,
-		text: `Task 3`,
+		id: 1184065035300,
+		name: `Task 3`,
 	}
 ];
 

@@ -29,7 +29,8 @@
     "stylelint-scss": "^3.18.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.10"
+    "@babel/core": "^7.12.10",
+    "sass": "^1.32.0"
   },
   "staticFiles": {
     "staticPath": "public",
