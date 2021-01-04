@@ -5,7 +5,7 @@ import newTasks from '../../../_data/tasks';
 
 const List = ({ listName }) => {
 	const listStructure = listName.split(`_`),
-	 localData = localStorage.getItem(`task_data`) ? JSON.parse(localStorage.getItem(`task_data`)) : false;
+		localData = localStorage.getItem(`task_data`) ? JSON.parse(localStorage.getItem(`task_data`)) : false;
 
 	let initialTasks = newTasks,
 		journal = `week`;
@@ -24,6 +24,7 @@ const List = ({ listName }) => {
 	}
 
 	const [todos, setTodos] = useState(initialTasks),
+		[open, setOpen] = useState(false),
 		saveLocal = (listData) => {
 			const local = JSON.parse(localStorage.getItem(`task_data`)),
 				localList = (local && local[journal]) ? local[journal][listStructure[0]] : {};
@@ -53,6 +54,25 @@ const List = ({ listName }) => {
 			setTodos(list);
 
 			saveLocal(todos);
+		},
+		changeLabel = () => {
+			// const taskId = current.getAttribute(`data-id`),
+			// 	list = todos;
+
+			// list.some((task) => {
+			// 	if (task.id === taskId) {
+			// 		task.completed = current.querySelector(`input[type="checkbox`).checked;
+			// 	}
+
+			// 	return task.id === taskId;
+			// });
+
+			// setTodos(list);
+
+			// saveLocal(todos);
+		},
+		openModal = () => {
+
 		};
 
 	useEffect(() => { saveLocal(todos); }, [todos]);
@@ -60,22 +80,46 @@ const List = ({ listName }) => {
 	return (
 		<ul>
 			{todos.map((task, index) => {
-				const ref = useRef(null);
+				const ref = useRef(null),
+					taskId = `${journal}_${listStructure.join(`_`)}_${task.id}`;
 				return (
 					<li key={index} ref={ref} data-id={task.id}>
 						<input
 							type="checkbox"
-							name={`${journal}_${listStructure.join(`_`)}_${task.id}_checkbox`}
+							name={`${taskId}_checkbox`}
 							defaultChecked={task.completed}
 							onChange={() => { completeTask(ref); }}
-							id={`${journal}_${listStructure.join(`_`)}_${task.id}_checkbox`}
+							id={`${taskId}_checkbox`}
 						/>
 						<label
-							htmlFor={`${journal}_${listStructure.join(`_`)}_${task.id}_checkbox`}
+							htmlFor={`${taskId}_checkbox`}
 						>
 							{task.text}
 						</label>
-						<button>Edit Task</button>
+						<button onClick={() => openModal()}>Edit Task</button>
+						<div open={open}>
+							<form onSubmit={changeLabel()}>
+								<legend>Edit Task</legend>
+								<input
+									type="checkbox"
+									name={`${taskId}_checkbox`}
+									defaultChecked={task.completed}
+									onChange={() => { completeTask(ref); }}
+									id={`${taskId}_checkbox`}
+								/>
+								<label
+									htmlFor={`${taskId}_checkbox`}
+								>
+									{task.completed ? `Uncomplete` : `Complete`} {task.text}
+								</label>
+								<label>Edit {task.text}</label>
+								<input
+									type="text"
+									defaultValue={task.text}
+									onChange={() => { changeLabel(ref); }}
+								/>
+							</form>
+						</div>
 					</li>
 				);
 			})}
