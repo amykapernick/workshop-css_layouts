@@ -141,7 +141,7 @@ const List = ({ listName }) => {
 							<button onClick={() => deleteTask(index)}>Delete Task</button>
 							<button onClick={() => openEditTask(!editTaskOpen)}>Edit Task</button>
 							<div open={editTaskOpen}>
-								<form onSubmit={changeLabel()}>
+								<form onSubmit={(e) => { changeLabel(ref, e); }}>
 									<legend>Edit Task</legend>
 									<input
 										type="checkbox"
@@ -159,9 +159,10 @@ const List = ({ listName }) => {
 									<input
 										type="text"
 										defaultValue={task.name}
+										name={`${taskId}_label`}
 										onChange={(e) => { changeLabel(ref, e); }}
 									/>
-									<button onClick={() => deleteTask(index)}>Delete Task</button>
+									<button type="button" onClick={() => deleteTask(index)}>Delete Task</button>
 								</form>
 							</div>
 						</li>
