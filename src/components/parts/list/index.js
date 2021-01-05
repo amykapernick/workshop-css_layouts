@@ -81,6 +81,9 @@ const List = ({ listName }) => {
 				saveLocal(todos);
 			}
 		},
+		changeLabelForm = (ref, e) => {
+			changeLabel(ref, { target: e.target.elements.label });
+		},
 		deleteTask = (index) => {
 			const list = todos;
 
@@ -128,7 +131,7 @@ const List = ({ listName }) => {
 						<li key={index} ref={ref} data-id={task.id}>
 							<input
 								type="checkbox"
-								name={`${taskId}_checkbox`}
+								name={`checkbox`}
 								defaultChecked={task.completed}
 								onChange={() => { completeTask(ref); }}
 								id={`${taskId}_checkbox`}
@@ -141,11 +144,11 @@ const List = ({ listName }) => {
 							<button onClick={() => deleteTask(index)}>Delete Task</button>
 							<button onClick={() => openEditTask(!editTaskOpen)}>Edit Task</button>
 							<div open={editTaskOpen}>
-								<form onSubmit={(e) => { changeLabel(ref, e); }}>
+								<form onSubmit={(e) => { changeLabelForm(ref, e); }}>
 									<legend>Edit Task</legend>
 									<input
 										type="checkbox"
-										name={`${taskId}_checkbox`}
+										name={`checkbox_modal`}
 										defaultChecked={task.completed}
 										onChange={(e) => { completeTask(ref, e); }}
 										id={`${taskId}_checkbox_modal`}
@@ -159,7 +162,7 @@ const List = ({ listName }) => {
 									<input
 										type="text"
 										defaultValue={task.name}
-										name={`${taskId}_label`}
+										name={`label`}
 										onChange={(e) => { changeLabel(ref, e); }}
 									/>
 									<button type="button" onClick={() => deleteTask(index)}>Delete Task</button>
