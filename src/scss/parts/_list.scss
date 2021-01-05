@@ -1,0 +1,67 @@
+@use '../variables.scss';
+
+// TODO: remove this
+
+.goals li:first-child {
+	.modal {
+		display: block;
+	}
+}
+
+.list {
+	li {
+		display: flex;
+	}
+
+	.modal {
+		form {
+			position: relative;
+			z-index: 5;
+			align-items: center;
+			max-width: unset;
+			padding: 0;
+		}
+
+		label {
+			width: auto;
+		}
+
+		input {
+			flex: 1 1 auto;
+			padding: 10px 15px;
+			border: none;
+			border-bottom: 1px solid variables.$neutral_light_25;
+			background: transparent;
+			font-size: 1.2em;
+
+			&[type='checkbox'] {
+				+ label {
+
+					margin: 0;
+
+					&:before {
+						width: 30px;
+						height: 30px;
+					}
+
+					&:after {
+						top: -4px;
+						left: 5px;
+						font-size: 30px;
+					}
+				}
+			}
+		}
+	}
+
+	input {
+		&[type='checkbox'] {
+			&:checked {
+				+ label {
+					opacity: 0.6;
+					text-decoration: line-through;
+				}
+			}
+		}
+	}
+}

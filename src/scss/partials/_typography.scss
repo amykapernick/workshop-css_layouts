@@ -1,0 +1,25 @@
+@use '../variables.scss';
+
+body {
+	color: variables.$neutral;
+	font-family: variables.$font_main;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.5;
+}
+
+a {
+	color: variables.$blue;
+}
+
+pre, code {
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 400;
+}
+
+button {
+	svg {
+		width: auto;
+		height: 1.2em;
+	}
+}

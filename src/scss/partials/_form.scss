@@ -1,0 +1,119 @@
+@use '../variables.scss';
+
+form {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	max-width: 400px;
+	padding: 20px;
+
+	legend {
+		width: 100%;
+		margin: 10px 0 20px;
+		font-size: 1.3em;
+		font-weight: bold;
+	}
+
+	label {
+		display: block;
+		width: 100%;
+		margin: 10px 0 5px;
+	}
+}
+
+input {
+	font-family: variables.$font_main;
+
+	&[type='checkbox'], &[type='radio'] {
+		display: none;
+
+		& + label {
+			display: flex;
+			position: relative;
+			align-items: center;
+
+			&:before, &:after {
+				display: block;
+				font-size: 20px;
+			}
+
+			&:before {
+				content: '';
+				width: 20px;
+				height: 20px;
+				margin-right: 1ch;
+				border: 2px solid variables.$neutral;
+				border-radius: 2px;
+				background: #ffffff;
+			}
+
+			&:after {
+				position: absolute;
+				top: 0;
+				left: 4px;
+				width: auto;
+				height: 20px;
+			}
+		}
+
+		&:checked {
+			& + label {
+				&:after {
+					content: '';
+				}
+			}
+		}
+	}
+
+	&[type='radio'] {
+		& + label {
+			&:before, &:after {
+				border-radius: 50px;
+			}
+
+			&:after {
+				top: 5px;
+				left: 4px;
+				width: 16px;
+				height: 16px;
+				background: variables.$blue;
+			}
+		}
+	}
+
+	&[type='checkbox'] {
+		&:checked {
+			& + label {
+				&:after {
+					content: '✓';
+				}
+			}
+		}
+	}
+}
+
+button {
+	padding: 10px;
+	border: 2px solid variables.$darkpurple;
+	border-radius: 5px;
+	background: #ffffff;
+	color: variables.$darkpurple;
+	cursor: pointer;
+
+	&:hover, &:focus {
+		background: variables.$darkpurple;
+		color: #ffffff;
+	}
+
+	&.remove {
+		border-color: variables.$red;
+		opacity: 0.6;
+		background: variables.$red;
+		color: #ffffff;
+
+		&:hover, &:focus {
+			opacity: 1;
+		}
+	}
+}

@@ -3,6 +3,10 @@ import React, {
 } from 'react';
 import { useLocation } from 'react-router-dom';
 
+import Delete from '../../../img/delete.svg';
+import Edit from '../../../img/edit.svg';
+import Remove from '../../../img/remove.svg';
+import Add from '../../../img/add.svg';
 import newTasks from '../../../_data/tasks';
 import uuid from '../../../utils/uuid';
 
@@ -112,17 +116,25 @@ const List = ({ listName }) => {
 
 	return (
 		<Fragment>
-			<form onSubmit={(e) => addTask(e)} open={newTaskOpen}>
-				<label>New Task Name</label>
-				<input
-					type="text"
-					placeholder="New Task"
-					name={`${listName}_newTask`}
-				/>
-				<button type="submit">Add Task</button>
-			</form>
-			<button onClick={() => openNewTask(!newTaskOpen)}>Add New Task</button>
-			<ul>
+			<div className="modal" open={newTaskOpen}>
+				<form onSubmit={(e) => addTask(e)}>
+					<label>New Task Name</label>
+					<input
+						type="text"
+						placeholder="New Task"
+						name={`${listName}_newTask`}
+					/>
+					<button className="icon add" type="submit">
+						<Add />
+						<span className="sr-only">Add Task</span>
+					</button>
+				</form>
+			</div>
+			<button className="icon add" onClick={() => openNewTask(!newTaskOpen)}>
+				<Add />
+				<span className="sr-only">Add New Task</span>
+			</button>
+			<ul className="list">
 				{todos.map((task, index) => {
 					const ref = useRef(null),
 						taskId = `${journal}_${listStructure.join(`_`)}_${task.id}`,
@@ -141,9 +153,15 @@ const List = ({ listName }) => {
 							>
 								{task.name}
 							</label>
-							<button onClick={() => deleteTask(index)}>Delete Task</button>
-							<button onClick={() => openEditTask(!editTaskOpen)}>Edit Task</button>
-							<div open={editTaskOpen}>
+							<button className="icon remove" onClick={() => deleteTask(index)}>
+								<Remove />
+								<span className="sr-only">Delete Task</span>
+							</button>
+							<button className="icon" onClick={() => openEditTask(!editTaskOpen)}>
+								<Edit />
+								<span className="sr-only">Edit Task</span>
+							</button>
+							<div className="modal" open={editTaskOpen}>
 								<form onSubmit={(e) => { changeLabelForm(ref, e); }}>
 									<legend>Edit Task</legend>
 									<input
@@ -156,16 +174,21 @@ const List = ({ listName }) => {
 									<label
 										htmlFor={`${taskId}_checkbox_modal`}
 									>
-										{task.completed ? `Uncomplete` : `Complete`} {task.name}
+										<span className="sr-only">
+											{task.completed ? `Uncomplete` : `Complete`} {task.name}
+										</span>
 									</label>
-									<label>Edit {task.name}</label>
+									<label className="sr-only">Edit {task.name}</label>
 									<input
 										type="text"
 										defaultValue={task.name}
 										name={`label`}
 										onChange={(e) => { changeLabel(ref, e); }}
 									/>
-									<button type="button" onClick={() => deleteTask(index)}>Delete Task</button>
+									<button className="icon remove" type="button" onClick={() => deleteTask(index)}>
+										<Delete />
+										<span className="sr-only">Delete Task</span>
+									</button>
 								</form>
 							</div>
 						</li>

@@ -4,7 +4,7 @@ import List from '../../parts/list';
 
 const Week = ({ weekId }) => (
 	<Fragment>
-		<section>
+		<section className="goals">\
 			<h2>Weekly Goals</h2>
 			<List listName={`${weekId}_weeklyGoals`} />
 		</section>

@@ -1,0 +1,40 @@
+@use '../variables.scss';
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 100;
+	top: 40vh;
+	left: 30vw;
+	width: 40vw;
+	min-height: 20vh;
+	padding: 20px;
+
+	&[open] {
+		display: block;
+	}
+
+	&:before {
+		content: '';
+		position: fixed;
+		z-index: -1;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		opacity: 0.8;
+		background: variables.$neutral;
+	}
+
+	&:after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		border-radius: 20px;
+		background: variables.$background;
+	}
+}
