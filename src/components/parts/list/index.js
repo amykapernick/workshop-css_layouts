@@ -27,7 +27,7 @@ const List = ({ listName }) => {
 	}
 
 	const [todos, setTodos] = useState(initialTasks),
-		[open, setOpen] = useState(false),
+		[newTaskOpen, openNewTask] = useState(false),
 		saveLocal = (listData) => {
 			const local = JSON.parse(localStorage.getItem(`task_data`)),
 				localJournal = local ? local[journal] : {},
@@ -81,9 +81,6 @@ const List = ({ listName }) => {
 				saveLocal(todos);
 			}
 		},
-		openModal = () => {
-
-		},
 		deleteTask = (index) => {
 			const list = todos;
 
@@ -112,7 +109,7 @@ const List = ({ listName }) => {
 
 	return (
 		<Fragment>
-			<form onSubmit={(e) => addTask(e)}>
+			<form onSubmit={(e) => addTask(e)} open={newTaskOpen}>
 				<label>New Task Name</label>
 				<input
 					type="text"
@@ -121,10 +118,12 @@ const List = ({ listName }) => {
 				/>
 				<button type="submit">Add Task</button>
 			</form>
+			<button onClick={() => openNewTask(!newTaskOpen)}>Add New Task</button>
 			<ul>
 				{todos.map((task, index) => {
 					const ref = useRef(null),
-						taskId = `${journal}_${listStructure.join(`_`)}_${task.id}`;
+						taskId = `${journal}_${listStructure.join(`_`)}_${task.id}`,
+						[editTaskOpen, openEditTask] = useState(false);
 					return (
 						<li key={index} ref={ref} data-id={task.id}>
 							<input
@@ -140,8 +139,8 @@ const List = ({ listName }) => {
 								{task.name}
 							</label>
 							<button onClick={() => deleteTask(index)}>Delete Task</button>
-							<button onClick={() => openModal()}>Edit Task</button>
-							<div open={open}>
+							<button onClick={() => openEditTask(!editTaskOpen)}>Edit Task</button>
+							<div open={editTaskOpen}>
 								<form onSubmit={changeLabel()}>
 									<legend>Edit Task</legend>
 									<input
