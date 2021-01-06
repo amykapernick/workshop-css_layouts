@@ -5,23 +5,23 @@ import Notes from '../../parts/notes';
 
 const Week = ({ weekId }) => (
 	<Fragment>
-		<section className="goals">
+		<section className="goals section">
 			<h2>Goals</h2>
 			<List listName={`week_${weekId}_goals`} />
 		</section>
-		<section className="events">
+		<section className="events section">
 			<h2>Events</h2>
 			<List listName={`week_${weekId}_events`} />
 		</section>
-		<section className="work">
+		<section className="work section">
 			<h2>Work</h2>
 			<List listName={`week_${weekId}_work`} />
 		</section>
-		<section className="personal">
+		<section className="personal section">
 			<h2>Personal</h2>
 			<List listName={`week_${weekId}_personal`} />
 		</section>
-		<section className="selfcare">
+		<section className="selfcare section">
 			<h2>Selfcare</h2>
 			<List listName={`week_${weekId}_selfcare`} />
 		</section>

@@ -1,0 +1,46 @@
+.header {
+	border: 2px solid #9440a0;
+	background: #f4ecf6;
+}
+
+.date {
+	margin: 0;
+	border: 2px solid #64ad66;
+	background: #d8ebd9;
+	text-align: center;
+}
+
+.goals, .goals_week, .goals_month {
+	border: 2px solid #cb5699;
+	background: #f2d5e6;
+}
+
+.events {
+	border: 2px solid #7561c1;
+	background: #ddd8f0;
+}
+
+.work {
+	border: 2px solid #318ce7;
+	background: #cce2f9;
+}
+
+.personal {
+	border: 2px solid #7561c1;
+	background: #ddd8f0;
+}
+
+.selfcare {
+	border: 2px solid #cb5699;
+	background: #f2d5e6;
+}
+
+.notes, .notes_week, .notes_month {
+	border: 2px solid #ffce03;
+	background: #fff3c0;
+}
+
+.current_day, .days {
+	border: 2px solid #e53f51;
+	background: #f9cfd4;
+}
