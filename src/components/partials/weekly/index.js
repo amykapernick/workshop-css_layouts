@@ -7,7 +7,7 @@ const Week = ({ weekId }) => (
 	<Fragment>
 		<section className="goals">
 			<h2>Goals</h2>
-			<List listName={`${weekId}_weeklyGoals`} />
+			<List listName={`${weekId}_goals`} />
 		</section>
 		<section className="events">
 			<h2>Events</h2>

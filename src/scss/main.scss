@@ -1,11 +1,14 @@
-@import 'global.scss';
-@import 'partials/typography.scss';
-@import 'partials/form.scss';
+@import '_global/global.scss';
+@import '_global/typography.scss';
+@import '_global/form.scss';
 
-@import 'parts/list.scss';
-@import 'parts/modal.scss';
+@import '_parts/list.scss';
+@import '_parts/modal.scss';
 
-@import 'parts/weekly.scss';
+@import '_partials/header.scss';
+@import '_partials/layout.scss';
+@import '_partials/weekly.scss';
+@import '_partials/monthly.scss';
 
 @font-face {
 	font-family: Montserrat;

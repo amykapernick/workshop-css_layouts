@@ -22,7 +22,7 @@ const App = () => (
 				<Route path="/week/:weekId?">
 					<Week />
 				</Route>
-				<Route exact path="/month">
+				<Route exact path="/month/:monthId?">
 					<Month />
 				</Route>
 			</Switch>

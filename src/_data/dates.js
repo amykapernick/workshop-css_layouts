@@ -25,6 +25,26 @@ const fullMonths = [
 		`Oct`,
 		`Nov`,
 		`Dec`
+	],
+	days = [
+		`Sun`,
+		`Mon`,
+		`Tue`,
+		`Wed`,
+		`Thu`,
+		`Fri`,
+		`Sat`
+	],
+	fullDays = [
+		`Sunday`,
+		`Monday`,
+		`Tuesday`,
+		`Wednesday`,
+		`Thursday`,
+		`Friday`,
+		`Saturday`
 	];
 
-module.exports = { months, fullMonths };
+module.exports = {
+	months, fullMonths, days, fullDays
+};

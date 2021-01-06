@@ -1,0 +1,25 @@
+@use '../variables.scss';
+
+.month {
+	.month_view {
+		display: grid;
+		grid-gap: 10px;
+		grid-template-columns: repeat(7, 1fr);
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+		.date {
+			grid-column-start: var(--offset);
+			grid-row-start: var(--row);
+		}
+
+		.event {
+			grid-column-end: var(--event_end);
+			grid-column-start: var(--event_start);
+			grid-row: var(--row);
+			border: 2px solid variables.$darkpurple;
+			background: rgba(variables.$darkpurple_light_10, 0.5);
+		}
+	}
+}

@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { useParams } from 'react-router-dom';
-import { months } from "../../_data/months";
+import { months } from "../../_data/dates";
 
 import WeeklyLayout from '../../components/partials/weekly';
 
