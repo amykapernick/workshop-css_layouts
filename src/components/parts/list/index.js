@@ -1,15 +1,11 @@
 import React, {
-	useState, useRef, useEffect, Fragment
+	useState, useEffect, Fragment
 } from 'react';
 import { useLocation } from 'react-router-dom';
 
 import Item from '../listItem';
 
 import Add from '../../icons/add';
-import Delete from '../../icons/delete';
-import Edit from '../../icons/edit';
-import Close from '../../icons/close';
-import Check from '../../icons/check';
 import uuid from '../../../utils/uuid';
 
 const List = ({ listName }) => {
@@ -72,11 +68,11 @@ const List = ({ listName }) => {
 			if (e && ref) {
 				const { current } = ref,
 					newLabel = e.target.value,
-					taskId = current.getAttribute(`data-id`),
+					taskId = parseInt(current.getAttribute(`data-id`)),
 					list = todos;
 
 				list.some((task) => {
-					if (task.id === taskId) {
+					if (parseInt(task.id) === taskId) {
 						task.name = newLabel;
 					}
 

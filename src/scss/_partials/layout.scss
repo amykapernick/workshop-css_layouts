@@ -4,7 +4,7 @@ main {
 	section {
 		padding: 10px 20px;
 
-		&:not(.days):not(.notes), .day {
+		&:not(.days):not(.notes):not(.notes_week):not(.notes_month), .day {
 			display: grid;
 			grid-template-columns: 1fr auto;
 			align-content: start;
@@ -45,7 +45,7 @@ main {
 		text-align: center;
 	}
 
-	.goals {
+	.goals, .goals_week, .goals_month {
 		border: 2px solid variables.$pink;
 		background: variables.$pink_light_25;
 	}
@@ -70,7 +70,7 @@ main {
 		background: variables.$pink_light_25;
 	}
 
-	.notes {
+	.notes, .notes_week, .notes_month {
 		border: 2px solid variables.$yellow;
 		background: variables.$yellow_light_25;
 
@@ -81,6 +81,11 @@ main {
 			background: variables.$neutral_light_90;
 			color: #ffffff;
 		}
+	}
+
+	.current_day {
+		border: 2px solid variables.$red;
+		background: variables.$red_light_25;
 	}
 
 	.days {

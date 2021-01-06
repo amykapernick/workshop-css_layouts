@@ -1,0 +1,56 @@
+@use '../variables.scss';
+
+main {
+	display: grid;
+	grid-template-areas:
+		'date_week	goals_week	date_month	events'
+		'day		goals_week	goals_month	events'
+		'notes_week notes_week	notes_month	notes_month';
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(3, auto);
+
+	.goals_week {
+		grid-area: goals_week;
+	}
+
+	.goals_month {
+		grid-area: goals_month;
+	}
+
+	.events {
+		grid-area: events;
+	}
+
+	.notes_week {
+		grid-area: notes_week;
+	}
+
+	.notes_month {
+		grid-area: notes_month;
+	}
+
+	.current_day {
+		grid-area: day;
+	}
+
+	.date_week {
+		grid-area: date_week;
+	}
+
+	.date_month {
+		grid-area: date_month;
+	}
+
+	.date {
+		align-self: center;
+		margin: 10px 0;
+		color: inherit;
+		font-size: 1.8em;
+		text-decoration: none;
+		justify-self: center;
+
+		&:hover, &:focus {
+			background: variables.$blue;
+		}
+	}
+}

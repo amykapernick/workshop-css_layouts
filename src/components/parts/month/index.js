@@ -4,6 +4,9 @@ import React, {
 
 import Event from '../event';
 
+import Add from '../../icons/add';
+import Close from '../../icons/close';
+
 import { days } from '../../../_data/dates';
 import uuid from '../../../utils/uuid';
 
@@ -39,6 +42,7 @@ const MonthView = ({ monthId }) => {
 	}
 
 	const [events, setEvents] = useState(initialEvents),
+		[newEventOpen, openNewEvent] = useState(false),
 		saveLocal = (listData) => {
 			const local = JSON.parse(localStorage.getItem(`task_data`)),
 				localJournal = local ? local.month : {},
@@ -79,6 +83,29 @@ const MonthView = ({ monthId }) => {
 			saveLocal(events);
 
 			location.reload();
+		},
+		changeLabel = (ref, e) => {
+			if (e && ref) {
+				const { current } = ref,
+					newLabel = e.target.value,
+					eventId = parseInt(current.getAttribute(`data-id`)),
+					list = events;
+
+				list.some((event) => {
+					if (event.id === eventId) {
+						event.name = newLabel;
+					}
+
+					return event.id === eventId;
+				});
+
+				setEvents(list);
+
+				saveLocal(events);
+			}
+		},
+		changeLabelForm = (ref, e) => {
+			changeLabel(ref, { target: e.target.elements.label });
 		};
 
 	let row = 1,
@@ -86,27 +113,37 @@ const MonthView = ({ monthId }) => {
 
 	return (
 		<Fragment>
-			<form onSubmit={(e) => addEvent(e)}>
-				<label htmlFor={`${monthId}_newEvent_start`} >Event Name</label>
-				<input id={`${monthId}_newEvent`} type="text" name="newEvent" />
-				<label htmlFor={`${monthId}_newEvent_start`} >Start Date</label>
-				<input
-					type="date"
-					id={`${monthId}_newEvent_start`}
-					name="eventStart"
-					min={`${year}-${`0${monthNum}`.slice(-2)}-01`}
-					max={`${year}-${`0${monthNum}`.slice(-2)}-${monthLength}`}
-				/>
-				<label htmlFor={`${monthId}_newEvent_end`} >End Date (optional)</label>
-				<input
-					type="date"
-					id={`${monthId}_newEvent_end`}
-					name="eventEnd"
-					min={`${year}-${`0${monthNum}`.slice(-2)}-01`}
-					max={`${year}-${`0${monthNum}`.slice(-2)}-${monthLength}`}
-				/>
-				<button type="submit">Add New Event</button>
-			</form>
+			<div className="modal new" open={newEventOpen}>
+				<button className="icon close" onClick={() => openNewEvent(!newEventOpen)}>
+					<Close />
+					<span className="sr-only">Close Modal</span>
+				</button>
+				<form onSubmit={(e) => addEvent(e)}>
+					<label htmlFor={`${monthId}_newEvent_start`} className="sr-only">Event Name</label>
+					<input id={`${monthId}_newEvent`} type="text" name="newEvent" placeholder="Event Name" />
+					<label htmlFor={`${monthId}_newEvent_start`} >Start Date</label>
+					<input
+						type="date"
+						id={`${monthId}_newEvent_start`}
+						name="eventStart"
+						min={`${year}-${`0${monthNum}`.slice(-2)}-01`}
+						max={`${year}-${`0${monthNum}`.slice(-2)}-${monthLength}`}
+					/>
+					<label htmlFor={`${monthId}_newEvent_end`} >End Date (optional)</label>
+					<input
+						type="date"
+						id={`${monthId}_newEvent_end`}
+						name="eventEnd"
+						min={`${year}-${`0${monthNum}`.slice(-2)}-01`}
+						max={`${year}-${`0${monthNum}`.slice(-2)}-${monthLength}`}
+					/>
+					<button type="submit">Add New Event</button>
+				</form>
+			</div>
+			<button className="icon add" onClick={() => openNewEvent(!newEventOpen)}>
+				<Add />
+				<span className="sr-only">Add New Event</span>
+			</button>
 			<ul className="month_view">
 
 				{dates.map(({ date, day }) => {
@@ -125,7 +162,7 @@ const MonthView = ({ monthId }) => {
 					styles[`--row`] = row;
 
 					return (
-						<li key={date} data-day={days[day]} className="date" style={styles}>
+						<li key={date} data-day={days[day]} className="day" style={styles}>
 							<p>{date}</p>
 						</li>
 					);
@@ -135,7 +172,9 @@ const MonthView = ({ monthId }) => {
 						...event,
 						index,
 						functions: {
-							deleteEvent
+							deleteEvent,
+							changeLabel,
+							changeLabelForm
 						}
 					}} />
 				))}

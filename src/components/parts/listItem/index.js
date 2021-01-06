@@ -1,6 +1,5 @@
 import React, { useRef, useState } from 'react';
 
-import Add from '../../icons/add';
 import Delete from '../../icons/delete';
 import Edit from '../../icons/edit';
 import Close from '../../icons/close';
@@ -32,7 +31,6 @@ const Item = ({
 			</button>
 
 			<div className="modal" open={editTaskOpen}>
-
 				<button className="icon close" onClick={() => openEditTask(!editTaskOpen)}>
 					<Close />
 					<span className="sr-only">Close Modal</span>

@@ -14,7 +14,7 @@ const Month = ({ monthId }) => (
 			<h2>Notes</h2>
 			<Notes weekId={monthId} />
 		</section>
-		<section className="days">
+		<section className="calendar">
 			<h2 className="sr-only">Days</h2>
 			<MonthView {...{
 				monthId

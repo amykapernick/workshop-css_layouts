@@ -1,12 +1,16 @@
 import React, {
 	Fragment
 } from 'react';
-import { months } from "../../_data/dates";
+import { months, fullMonths } from "../../_data/dates";
 
 import Overview from '../../components/partials/overview';
 
 const IndexPage = () => {
-	let currentWeek = false;
+	let currentWeek = false,
+		currentMonth = new Date(),
+		monthString = `${fullMonths[currentMonth.getMonth()]} ${currentMonth.getFullYear()}`,
+		monthId = `${months[currentMonth.getMonth()]}-${currentMonth.getFullYear()}`,
+		currentDay = new Date().getDay();
 
 	if (!currentWeek) {
 		const currentDate = new Date(),
@@ -29,9 +33,10 @@ const IndexPage = () => {
 		weekId = `${weekDate.getDate()}-${months[weekDate.getMonth()]}-${weekDate.getFullYear()}`;
 	return (
 		<Fragment>
-			<h1>Overview</h1>
-			<p className="date">{weekString}</p>
-			<Overview weekId={weekId} />
+			<h1 className="sr-only">Overview</h1>
+			<a className="date_month date" href="/month">{monthString}</a>
+			<a className="date_week date" href="/week">{weekString}</a>
+			<Overview {...{ weekId, monthId, currentDay }} />
 		</Fragment>
 	);
 };

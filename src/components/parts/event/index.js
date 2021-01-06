@@ -1,11 +1,14 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useRef, useState } from 'react';
 
 import Delete from '../../icons/delete';
+import Edit from '../../icons/edit';
+import Close from '../../icons/close';
 
 const Event = ({
 		id, name, startDate, endDate, index, functions
 	}) => {
-		const listings = [],
+		const [editEventOpen, openEditEvent] = useState(false),
+			listings = [],
 			monthStart = new Date(startDate).setDate(1),
 			monthStartDay = new Date(monthStart).getDay(),
 			eventStart = new Date(startDate).getDate(),
@@ -74,27 +77,57 @@ const Event = ({
 					<EventListing key={JSON.stringify(event)} {...{
 						...event,
 						functions,
-						index
+						index,
+						editEventOpen,
+						openEditEvent,
 					}} />
 				))}
 			</Fragment>
 		);
 	},
 	EventListing = ({
-		name, start, end, functions, index, row
-	}) => (
-		<li
-			className="event" style={{
-				'--event_start': start,
-				'--event_end': end,
-				'--row': row
-			}}>
-			{name}
-			<button className="icon remove" type="button" onClick={() => functions.deleteEvent(index)}>
-				<Delete />
-				<span className="sr-only">Delete Task</span>
-			</button>
-		</li>
-	);
+		id, name, start, end, functions, index, row, editEventOpen,	openEditEvent
+	}) => {
+		const ref = useRef(null);
+
+		return (
+			<li
+				className="event" style={{
+					'--event_start': start,
+					'--event_end': end,
+					'--row': row
+				}}
+				ref={ref}
+				data-id={id}
+			>
+				{name}
+				<button className="icon" onClick={() => openEditEvent(!editEventOpen)}>
+					<Edit />
+					<span className="sr-only">Edit Event</span>
+				</button>
+
+				<div className="modal" open={editEventOpen}>
+					<button className="icon close" onClick={() => openEditEvent(!editEventOpen)}>
+						<Close />
+						<span className="sr-only">Close Modal</span>
+					</button>
+					<form onSubmit={(e) => { functions.changeLabelForm(ref, e); }}>
+						<legend>Edit Event</legend>
+						<label className="sr-only">Edit {name}</label>
+						<input
+							type="text"
+							defaultValue={name}
+							name="label"
+							onChange={(e) => { functions.changeLabel(ref, e); }}
+						/>
+						<button className="icon remove" type="button" onClick={() => functions.deleteEvent(index)}>
+							<Delete />
+							<span className="sr-only">Delete Event</span>
+						</button>
+					</form>
+				</div>
+			</li>
+		);
+	};
 
 export default Event;
