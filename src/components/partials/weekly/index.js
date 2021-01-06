@@ -1,35 +1,37 @@
 import React, { Fragment } from 'react';
 
 import List from '../../parts/list';
+import Notes from '../../parts/notes';
 
 const Week = ({ weekId }) => (
 	<Fragment>
-		<section className="goals">\
+		<section className="goals">
 			<h2>Weekly Goals</h2>
 			<List listName={`${weekId}_weeklyGoals`} />
 		</section>
-		<section>
+		<section className="events">
 			<h2>Events</h2>
 			<List listName={`${weekId}_events`} />
 		</section>
-		<section>
+		<section className="work">
 			<h2>Work Todo</h2>
 			<List listName={`${weekId}_work`} />
 		</section>
-		<section>
+		<section className="personal">
 			<h2>Personal Todo</h2>
 			<List listName={`${weekId}_personal`} />
 		</section>
-		<section>
+		<section className="selfcare">
 			<h2>Selfcare Todo</h2>
 			<List listName={`${weekId}_selfcare`} />
 		</section>
-		<section>
+		<section className="notes">
 			<h2>Notes</h2>
+			<Notes weekId={weekId} />
 		</section>
-		<section>
+		<section className="days">
 			<h2>Days</h2>
-			<ul>
+			<ul className="lists">
 				<li>
 					<h3>Monday</h3>
 					<List listName={`${weekId}_monday`} />

@@ -1,0 +1,66 @@
+@use '../variables.scss';
+
+.week {
+	section:not(.days):not(.notes) {
+		display: grid;
+		grid-template-columns: 1fr auto;
+		align-items: center;
+		justify-content: center;
+
+		.modal {
+			order: 2;
+		}
+
+		.list {
+			grid-column: span 2;
+		}
+	}
+
+	display: grid;
+	grid-template-areas:
+		'date	days	days		days	days'
+		'goals	days	days		days	days'
+		'events	days	days		days	days'
+		'work	work	personal	self	notes';
+	grid-template-columns: repeat(2, 1fr) repeat(3, 2fr);
+	grid-template-rows: repeat(4, auto);
+
+	.date {
+		grid-area: date;
+		background: variables.$green_light_10;
+	}
+
+	.goals {
+		grid-area: goals;
+	}
+
+	.events {
+		grid-area: events;
+	}
+
+	.work {
+		grid-area: work;
+	}
+
+	.personal {
+		grid-area: personal;
+	}
+
+	.selfcare {
+		grid-area: self;
+	}
+
+	.notes {
+		grid-area: notes;
+	}
+
+	.days {
+
+		grid-area: days;
+
+		.lists {
+			display: grid;
+			grid-template-columns: repeat(7, 1fr);
+		}
+	}
+}

@@ -3,10 +3,11 @@ import React, {
 } from 'react';
 import { useLocation } from 'react-router-dom';
 
-import Delete from '../../../img/delete.svg';
-import Edit from '../../../img/edit.svg';
-import Remove from '../../../img/remove.svg';
-import Add from '../../../img/add.svg';
+import Add from '../../icons/add';
+import Delete from '../../icons/delete';
+import Edit from '../../icons/edit';
+import Close from '../../icons/close';
+import Check from '../../icons/check';
 import newTasks from '../../../_data/tasks';
 import uuid from '../../../utils/uuid';
 
@@ -14,7 +15,7 @@ const List = ({ listName }) => {
 	const listStructure = listName.split(`_`),
 		localData = localStorage.getItem(`task_data`) ? JSON.parse(localStorage.getItem(`task_data`)) : false;
 
-	let initialTasks = newTasks,
+	 let initialTasks = newTasks,
 		journal = `week`;
 
 	if (RegExp(/^\/month\/*/).test(useLocation().pathname)) {
@@ -116,7 +117,7 @@ const List = ({ listName }) => {
 
 	return (
 		<Fragment>
-			<div className="modal" open={newTaskOpen}>
+			 <div className="modal" open={newTaskOpen}>
 				<form onSubmit={(e) => addTask(e)}>
 					<label>New Task Name</label>
 					<input
@@ -151,17 +152,20 @@ const List = ({ listName }) => {
 							<label
 								htmlFor={`${taskId}_checkbox`}
 							>
-								{task.name}
+								<Check className="check" />
+								<span>{task.name}</span>
 							</label>
-							<button className="icon remove" onClick={() => deleteTask(index)}>
-								<Remove />
-								<span className="sr-only">Delete Task</span>
-							</button>
 							<button className="icon" onClick={() => openEditTask(!editTaskOpen)}>
 								<Edit />
 								<span className="sr-only">Edit Task</span>
 							</button>
+
 							<div className="modal" open={editTaskOpen}>
+
+								<button className="icon close" onClick={() => openEditTask(!editTaskOpen)}>
+									<Close />
+									<span className="sr-only">Close Modal</span>
+								</button>
 								<form onSubmit={(e) => { changeLabelForm(ref, e); }}>
 									<legend>Edit Task</legend>
 									<input
@@ -174,6 +178,7 @@ const List = ({ listName }) => {
 									<label
 										htmlFor={`${taskId}_checkbox_modal`}
 									>
+										<Check className="check" />
 										<span className="sr-only">
 											{task.completed ? `Uncomplete` : `Complete`} {task.name}
 										</span>

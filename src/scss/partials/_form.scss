@@ -32,9 +32,11 @@ input {
 			display: flex;
 			position: relative;
 			align-items: center;
+			cursor: pointer;
 
 			&:before, &:after {
 				display: block;
+				flex-shrink: 0;
 				font-size: 20px;
 			}
 
@@ -94,6 +96,7 @@ input {
 }
 
 button {
+	margin: 10px;
 	padding: 10px;
 	border: 2px solid variables.$darkpurple;
 	border-radius: 5px;
@@ -108,12 +111,31 @@ button {
 
 	&.remove {
 		border-color: variables.$red;
-		opacity: 0.6;
 		background: variables.$red;
 		color: #ffffff;
 
 		&:hover, &:focus {
-			opacity: 1;
+			background: #ffffff;
+			color: variables.$red;
 		}
 	}
+
+	&.add {
+		border-color: variables.$green;
+		background: variables.$green;
+		color: #ffffff;
+
+		&:hover, &:focus {
+			background: #ffffff;
+			color: variables.$green;
+		}
+	}
+}
+
+textarea {
+	min-height: 200px;
+	padding: 10px;
+	font-family: variables.$font_main;
+	font-size: 1em;
+	line-height: 1.5;
 }

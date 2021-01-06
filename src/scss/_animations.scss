@@ -1,0 +1,19 @@
+@keyframes check {
+	0% {
+		stroke-dashoffset: 400;
+	}
+
+	100% {
+		stroke-dashoffset: 0;
+	}
+}
+
+@keyframes strikethrough {
+	0% {
+		transform: scaleX(0);
+	}
+
+	100% {
+		transform: scaleX(1);
+	}
+}
