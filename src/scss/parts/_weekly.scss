@@ -1,21 +1,6 @@
 @use '../variables.scss';
 
 .week {
-	section:not(.days):not(.notes) {
-		display: grid;
-		grid-template-columns: 1fr auto;
-		align-items: center;
-		justify-content: center;
-
-		.modal {
-			order: 2;
-		}
-
-		.list {
-			grid-column: span 2;
-		}
-	}
-
 	display: grid;
 	grid-template-areas:
 		'date	days	days		days	days'
@@ -25,9 +10,45 @@
 	grid-template-columns: repeat(2, 1fr) repeat(3, 2fr);
 	grid-template-rows: repeat(4, auto);
 
+	section {
+		padding: 10px 20px;
+
+		&:not(.days):not(.notes), .day {
+			display: grid;
+			grid-template-columns: 1fr auto;
+			align-content: start;
+			align-items: center;
+			justify-content: center;
+
+			.modal {
+				order: 2;
+			}
+
+			.list {
+				grid-column: span 2;
+			}
+		}
+
+		h2 {
+			margin: 0;
+		}
+
+		button {
+			&.add {
+				border-color: transparent;
+				background: none;
+				color: variables.$green;
+
+				&:hover, &:focus {
+					background: variables.$green;
+					color: #ffffff;
+				}
+			}
+		}
+	}
+
 	.date {
 		grid-area: date;
-		background: variables.$green_light_10;
 	}
 
 	.goals {
@@ -55,12 +76,68 @@
 	}
 
 	.days {
-
 		grid-area: days;
+	}
+}
 
-		.lists {
-			display: grid;
-			grid-template-columns: repeat(7, 1fr);
-		}
+.date {
+	margin: 0;
+	border: 2px solid variables.$green;
+	background: variables.$green_light_25;
+	text-align: center;
+}
+
+.goals {
+	border: 2px solid variables.$pink;
+	background: variables.$pink_light_25;
+}
+
+.events {
+	border: 2px solid variables.$purple;
+	background: variables.$purple_light_25;
+}
+
+.work {
+	border: 2px solid variables.$blue;
+	background: variables.$blue_light_25;
+}
+
+.personal {
+	border: 2px solid variables.$purple;
+	background: variables.$purple_light_25;
+}
+
+.selfcare {
+	border: 2px solid variables.$pink;
+	background: variables.$pink_light_25;
+}
+
+.notes {
+	border: 2px solid variables.$yellow;
+	background: variables.$yellow_light_25;
+
+	textarea {
+		margin-top: 20px;
+		padding: 12px 20px;
+		border-radius: 10px;
+		background: variables.$neutral_light_90;
+		color: #ffffff;
+	}
+}
+
+.days {
+	border: 2px solid variables.$red;
+	background: variables.$red_light_25;
+
+	.lists {
+		display: grid;
+		grid-template-columns: repeat(7, 1fr);
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.day {
+		margin: 0 15px;
 	}
 }

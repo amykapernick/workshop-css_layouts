@@ -65,8 +65,8 @@ const Notes = ({ weekId }) => {
 			<textarea
 				name="notes"
 				onChange={(e) => { changeLabel(e); }}
+				defaultValue={notes}
 			>
-				{notes}
 			</textarea>
 		</Fragment>
 	);

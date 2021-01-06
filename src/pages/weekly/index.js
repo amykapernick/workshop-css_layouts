@@ -32,7 +32,7 @@ const WeekPage = () => {
 
 	return (
 		<Fragment>
-			<h1 className="date">Week - {weekString}</h1>
+			<h1 className="date">{weekString}</h1>
 			<WeeklyLayout weekId={weekId} />
 		</Fragment>
 	);

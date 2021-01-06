@@ -2,9 +2,7 @@ import React from 'react';
 
 const Add = () => (
 	<svg viewBox="0 0 24 24">
-		<g fill="currentColor">
-			<path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z" />
-		</g>
+		<path d="M12 4a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2h-6v6a1 1 0 1 1-2 0v-6H5a1 1 0 1 1 0-2h6V5a1 1 0 0 1 1-1z" fill="currentColor"/>
 	</svg>
 
 );

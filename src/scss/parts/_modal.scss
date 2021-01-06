@@ -5,8 +5,8 @@
 	position: fixed;
 	z-index: 100;
 	top: 40vh;
-	left: 30vw;
-	width: 40vw;
+	left: 25vw;
+	width: 50vw;
 	min-height: 20vh;
 	padding: 20px;
 
@@ -36,5 +36,134 @@
 		left: 0;
 		border-radius: 20px;
 		background: variables.$background;
+	}
+
+	form {
+		position: relative;
+		z-index: 5;
+		align-items: center;
+		max-width: unset;
+		padding: 0;
+
+		&.toggle {
+			display: none;
+
+			&[open] {
+				display: flex;
+			}
+		}
+	}
+
+	label {
+		width: auto;
+	}
+
+	input {
+		flex: 1 1 auto;
+		padding: 10px 15px;
+		border: none;
+		border-bottom: 1px solid variables.$neutral_light_25;
+		background: transparent;
+		font-size: 1.2em;
+
+		&[type='text'] {
+			flex: 1 1 300px;
+			margin: 0 10px;
+		}
+
+		&[type='checkbox'] {
+			+ label {
+				flex-grow: 0;
+				margin: 0;
+
+				.check {
+					// left: 4px;
+					width: 30px;
+					height: 30px;
+				}
+
+				&:before {
+					width: 35px;
+					height: 35px;
+					margin: 0;
+				}
+
+				&:after {
+					top: -4px;
+					left: 5px;
+					font-size: 30px;
+				}
+			}
+
+			&:checked {
+				+ label {
+					opacity: 1;
+
+					span {
+						&:after {
+							content: normal;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	button {
+		margin: 0;
+
+		&.remove {
+			background: variables.$red;
+			color: #ffffff;
+		}
+
+		&.close {
+			position: absolute;
+			top: 0;
+			right: 0;
+			height: 40px;
+			border: none;
+			border-radius: 5px 50% 5px 5px;
+			opacity: 1;
+			background: none;
+
+			path {
+				stroke-width: 2px;
+			}
+
+			&:hover, &:focus {
+
+				background: variables.$darkpurple;
+			}
+		}
+
+		&.add {
+			&.toggle {
+				display: block;
+				margin: 10px 0 10px auto;
+				border-color: variables.$green;
+				background: variables.$green;
+				color: #ffffff;
+				text-align: right;
+
+				&:hover, &:focus {
+					background: #ffffff;
+					color: variables.$green;
+				}
+			}
+		}
+	}
+
+	textarea {
+		&.multiple {
+			width: calc(100% - 40px);
+			height: calc(2em * 5);
+			padding: 0 10px;
+			background: linear-gradient(
+					to bottom, variables.$background, variables.$background 50%, #ffffff 50%, #ffffff
+				);
+			background-size: 100% calc(2em * 2);
+			line-height: 2
+		}
 	}
 }
