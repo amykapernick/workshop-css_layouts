@@ -8,11 +8,11 @@ const Month = ({ monthId }) => (
 	<Fragment>
 		<section className="goals">
 			<h2>Goals</h2>
-			<List listName={`${monthId}_goals`} />
+			<List listName={`month_${monthId}_goals`} />
 		</section>
 		<section className="notes">
 			<h2>Notes</h2>
-			<Notes weekId={monthId} />
+			<Notes noteId={`month_${monthId}`} />
 		</section>
 		<section className="calendar">
 			<h2 className="sr-only">Days</h2>

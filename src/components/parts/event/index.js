@@ -5,7 +5,7 @@ import Edit from '../../icons/edit';
 import Close from '../../icons/close';
 
 const Event = ({
-		id, name, startDate, endDate, index, functions
+		id, name, startDate, endDate, index, functions, month
 	}) => {
 		const [editEventOpen, openEditEvent] = useState(false),
 			listings = [],
@@ -22,10 +22,14 @@ const Event = ({
 				end: endDay + 2
 			};
 
-		if ((eventStart - 1) <= 7 && monthStartDay <= startDay) {
-			listing.row = 1;
+		if ((eventStart - 1) <= 7) {
+			if (monthStartDay <= startDay) {
+				listing.row = 1;
+			} else {
+				listing.row = 2;
+			}
 		} else {
-			listing.row = Math.floor(((eventStart) / 7)) + 2;
+			listing.row = Math.floor(((eventStart) / 7)) + 1;
 		}
 
 		if (endDate && startDate !== endDate) {
@@ -76,8 +80,11 @@ const Event = ({
 				{listings.map((event) => (
 					<EventListing key={JSON.stringify(event)} {...{
 						...event,
+						startDate,
+						endDate,
 						functions,
 						index,
+						month,
 						editEventOpen,
 						openEditEvent,
 					}} />
@@ -86,7 +93,7 @@ const Event = ({
 		);
 	},
 	EventListing = ({
-		id, name, start, end, functions, index, row, editEventOpen,	openEditEvent
+		id, name, startDate, endDate, start, end, functions, index, row, editEventOpen,	openEditEvent, month
 	}) => {
 		const ref = useRef(null);
 
@@ -106,12 +113,12 @@ const Event = ({
 					<span className="sr-only">Edit Event</span>
 				</button>
 
-				<div className="modal" open={editEventOpen}>
+				<div className="modal new" open={editEventOpen}>
 					<button className="icon close" onClick={() => openEditEvent(!editEventOpen)}>
 						<Close />
 						<span className="sr-only">Close Modal</span>
 					</button>
-					<form onSubmit={(e) => { functions.changeLabelForm(ref, e); }}>
+					<form onSubmit={(e) => { functions.editForm(ref, e); }}>
 						<legend>Edit Event</legend>
 						<label className="sr-only">Edit {name}</label>
 						<input
@@ -120,6 +127,28 @@ const Event = ({
 							name="label"
 							onChange={(e) => { functions.changeLabel(ref, e); }}
 						/>
+
+						<label htmlFor={`event_start`} >Start Date</label>
+						<input
+							type="date"
+							id={`event_start`}
+							name="startDate"
+							min={`${month.year}-${`0${month.monthNum}`.slice(-2)}-01`}
+							max={`${month.year}-${`0${month.monthNum}`.slice(-2)}-${month.monthLength}`}
+							defaultValue={startDate}
+							onChange={(e) => { functions.changeDate(ref, e); }}
+						/>
+						<label htmlFor={`event_end`} >End Date (optional)</label>
+						<input
+							type="date"
+							id={`event_end`}
+							name="endDate"
+							min={`${month.year}-${`0${month.monthNum}`.slice(-2)}-01`}
+							max={`${month.year}-${`0${month.monthNum}`.slice(-2)}-${month.monthLength}`}
+							defaultValue={endDate}
+							onChange={(e) => { functions.changeDate(ref, e); }}
+						/>
+						<button className="save" type="submit">Save Changes</button>
 						<button className="icon remove" type="button" onClick={() => functions.deleteEvent(index)}>
 							<Delete />
 							<span className="sr-only">Delete Event</span>

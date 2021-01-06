@@ -45,16 +45,18 @@
 			border: 2px solid variables.$purple_dark_50;
 			background: rgba(variables.$purple_light_25, 0.8);
 
-			button:not(.remove) {
-				position: absolute;
-				top: 0;
-				right: -200vw;
-				margin: 0;
-				padding: 5px;
+			button {
+				&:not(.remove):not(.close):not(.save) {
+					position: absolute;
+					top: 0;
+					right: -200vw;
+					margin: 0;
+					padding: 5px;
+				}
 			}
 
 			&:hover {
-				button {
+				button:not(.remove):not(.close):not(.save) {
 					right: 0;
 				}
 			}
@@ -92,7 +94,7 @@
 			button {
 				&:not(.close) {
 					order: 2;
-					margin-top: 20px;
+					margin: 20px 10px 0;
 				}
 			}
 		}

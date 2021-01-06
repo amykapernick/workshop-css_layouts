@@ -47,6 +47,7 @@ const MonthView = ({ monthId }) => {
 			const local = JSON.parse(localStorage.getItem(`task_data`)),
 				localJournal = local ? local.month : {},
 				localList = (local && local.month) ? local.month[monthId] : {};
+
 			localStorage.setItem(`task_data`, JSON.stringify({
 				...local,
 				month: {
@@ -92,7 +93,7 @@ const MonthView = ({ monthId }) => {
 					list = events;
 
 				list.some((event) => {
-					if (event.id === eventId) {
+					if (parseInt(event.id) === eventId) {
 						event.name = newLabel;
 					}
 
@@ -104,9 +105,29 @@ const MonthView = ({ monthId }) => {
 				saveLocal(events);
 			}
 		},
-		changeLabelForm = (ref, e) => {
-			changeLabel(ref, { target: e.target.elements.label });
+		changeDate = (ref, e) => {
+			if (e && ref) {
+				const { current } = ref,
+					newDate = e.target.value,
+					eventId = parseInt(current.getAttribute(`data-id`)),
+					list = events;
+
+				list.some((event) => {
+					if (parseInt(event.id) === eventId) {
+						event[e.target.name] = newDate;
+					}
+
+					return event.id === eventId;
+				});
+
+				setEvents(list);
+
+				saveLocal(events);
+			}
 		};
+	editForm = (ref, e) => {
+		changeLabel(ref, { target: e.target.elements.label });
+	};
 
 	let row = 1,
 		column = 1;
@@ -171,10 +192,16 @@ const MonthView = ({ monthId }) => {
 					<Event key={event.id} {...{
 						...event,
 						index,
+						month: {
+							monthNum,
+							year,
+							monthLength
+						},
 						functions: {
 							deleteEvent,
 							changeLabel,
-							changeLabelForm
+							editForm,
+							changeDate
 						}
 					}} />
 				))}

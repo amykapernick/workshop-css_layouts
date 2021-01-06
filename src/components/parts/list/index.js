@@ -5,27 +5,23 @@ import { useLocation } from 'react-router-dom';
 
 import Item from '../listItem';
 
+import Close from '../../icons/close';
 import Add from '../../icons/add';
 import uuid from '../../../utils/uuid';
 
 const List = ({ listName }) => {
-	const listStructure = listName.split(`_`),
+	const listStructure = listName.split(`_`).map((i) => i.toLowerCase()),
 		localData = localStorage.getItem(`task_data`) ? JSON.parse(localStorage.getItem(`task_data`)) : false;
 
-	let initialTasks = [],
-		journal = `week`;
-
-	if (RegExp(/^\/month\/*/).test(useLocation().pathname)) {
-		journal = `month`;
-	}
+	let initialTasks = [];
 
 	if (
 		localData
-		&& localData[journal]
-		&& localData[journal][listStructure[0]]
-		&& localData[journal][listStructure[0]][listStructure[1]]
+		&& localData[listStructure[0]]
+		&& localData[listStructure[0]][listStructure[1]]
+		&& localData[listStructure[0]][listStructure[1]][listStructure[2]]
 	) {
-		initialTasks = localData[journal][listStructure[0]][listStructure[1]];
+		initialTasks = localData[listStructure[0]][listStructure[1]][listStructure[2]];
 	}
 
 	const [todos, setTodos] = useState(initialTasks),
@@ -33,15 +29,15 @@ const List = ({ listName }) => {
 		[addMultiple, toggleInputMethod] = useState(false),
 		saveLocal = (listData) => {
 			const local = JSON.parse(localStorage.getItem(`task_data`)),
-				localJournal = local ? local[journal] : {},
-				localList = (local && local[journal]) ? local[journal][listStructure[0]] : {};
+				localJournal = local ? local[listStructure[0]] : {},
+				localList = (local && local[listStructure[0]]) ? local[listStructure[0]][listStructure[1]] : {};
 			localStorage.setItem(`task_data`, JSON.stringify({
 				...local,
-				[journal]: {
+				[listStructure[0]]: {
 					...localJournal,
-					[listStructure[0]]: {
+					[listStructure[1]]: {
 						...localList,
-						[listStructure[1]]: listData
+						[listStructure[2]]: listData
 					}
 				}
 			}));
@@ -49,11 +45,11 @@ const List = ({ listName }) => {
 		completeTask = (ref, e) => {
 			const { current } = ref,
 				checkbox = e.target,
-				taskId = current.getAttribute(`data-id`),
+				taskId = parseInt(current.getAttribute(`data-id`)),
 				list = todos;
 
 			list.some((task) => {
-				if (task.id === taskId) {
+				if (parseInt(task.id) === taskId) {
 					task.completed = checkbox.checked;
 				}
 
@@ -134,7 +130,10 @@ const List = ({ listName }) => {
 	return (
 		<Fragment>
 			 <div className="modal" open={newTaskOpen}>
-
+				<button className="icon close" onClick={() => openNewTask(!newTaskOpen)}>
+					<Close />
+					<span className="sr-only">Close Modal</span>
+				</button>
 				<form className="toggle" onSubmit={(e) => addTask(e)} open={!addMultiple}>
 					<legend>Add New Task</legend>
 					<label className="sr-only">New Task Name</label>
@@ -179,7 +178,7 @@ const List = ({ listName }) => {
 						{...{
 							...task,
 							index,
-							taskId: `${journal}_${listStructure.join(`_`)}_${task.id}`,
+							taskId: `${listStructure.join(`_`)}_${task.id}`,
 							functions: {
 								completeTask,
 								changeLabelForm,

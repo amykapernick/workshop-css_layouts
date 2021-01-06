@@ -9,27 +9,27 @@ const Overview = ({ weekId, monthId, currentDay }) => (
 	<Fragment>
 		<section className="goals_week">
 			<h2>Goals this Week</h2>
-			<List listName={`${weekId}_goals`} />
+			<List listName={`week_${weekId}_goals`} />
 		</section>
 		<section className="goals_month">
 			<h2>Goals this Month</h2>
-			<List listName={`${monthId}_goals`} />
+			<List listName={`month_${monthId}_goals`} />
 		</section>
 		<section className="events">
 			<h2>Events this Week</h2>
-			<List listName={`${weekId}_events`} />
+			<List listName={`week_${weekId}_events`} />
 		</section>
 		<section className="notes_week">
 			<h2>Notes this Week</h2>
-			<Notes weekId={weekId} />
+			<Notes noteId={`week_${weekId}`} />
 		</section>
 		<section className="notes_month">
 			<h2>Notes this Month</h2>
-			<Notes weekId={weekId} />
+			<Notes noteId={`month_${monthId}`} />
 		</section>
 		<section className="current_day">
 			<h2>{fullDays[currentDay]}</h2>
-			<List listName={`${weekId}_${fullDays[currentDay].toLowerCase()}`} />
+			<List listName={`week_${weekId}_${fullDays[currentDay].toLowerCase()}`} />
 		</section>
 	</Fragment>
 

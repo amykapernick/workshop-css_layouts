@@ -4,36 +4,18 @@ import { months } from "../../_data/dates";
 
 import WeeklyLayout from '../../components/partials/weekly';
 
-const WeekPage = () => {
+import * as generate from '../../utils/generateIds';
+
+const WeekPage = ({ weekId }) => {
 	const params = useParams(),
-		weekStart = params.weekId && new Date(params.weekId);
-
-	 let currentWeek = weekStart;
-
-	if (!currentWeek) {
-		const currentDate = new Date(),
-			currentDay = currentDate.getDay();
-		let startDate = 0;
-
-		if (currentDay === 1) {
-			startDate = currentDate.getDate();
-		} else if (currentDay === 0) {
-			startDate = currentDate.getDate() - 6;
-		} else {
-			startDate = currentDate.getDate() - (currentDay - 1);
-		}
-
-		currentWeek = currentDate.setDate(startDate);
-	}
-
-	const weekDate = new Date(currentWeek),
-		weekString = `${weekDate.getDate()} ${months[weekDate.getMonth()]} ${weekDate.getFullYear()}`,
-		weekId = `${weekDate.getDate()}-${months[weekDate.getMonth()]}-${weekDate.getFullYear()}`;
+		currentWeek = params.weekId ? new Date(params.weekId) : new Date(weekId),
+		weekString = generate.weekString(currentWeek),
+		id = generate.weekId(currentWeek);
 
 	return (
 		<Fragment>
 			<h1 className="date">{weekString}</h1>
-			<WeeklyLayout weekId={weekId} />
+			<WeeklyLayout weekId={id} />
 		</Fragment>
 	);
 };

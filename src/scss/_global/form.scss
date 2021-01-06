@@ -120,7 +120,7 @@ button {
 		}
 	}
 
-	&.add {
+	&.add, &.save {
 		border-color: variables.$green;
 		background: variables.$green;
 		color: #ffffff;

@@ -11,35 +11,32 @@ import Check from '../../icons/check';
 import newTasks from '../../../_data/tasks';
 import uuid from '../../../utils/uuid';
 
-const Notes = ({ weekId }) => {
-	const localData = localStorage.getItem(`task_data`) ? JSON.parse(localStorage.getItem(`task_data`)) : false;
+const Notes = ({ noteId }) => {
+	console.log(noteId);
+	const id = noteId.split(`_`).map((i) => i.toLowerCase()),
+	 localData = localStorage.getItem(`task_data`) ? JSON.parse(localStorage.getItem(`task_data`)) : false;
 
-	let journal = `week`,
-		initialNotes = ``;
-
-	if (RegExp(/^\/month\/*/).test(useLocation().pathname)) {
-		journal = `month`;
-	}
+	let initialNotes = ``;
 
 	if (
 		localData
-		&& localData[journal]
-		&& localData[journal][weekId]
-		&& localData[journal][weekId].notes
+		&& localData[id[0]]
+		&& localData[id[0]][id[1]]
+		&& localData[id[0]][id[1]].notes
 	) {
-		initialNotes = localData[journal][weekId].notes;
+		initialNotes = localData[id[0]][id[1]].notes;
 	}
 
 	const [notes, setNotes] = useState(initialNotes),
 		saveLocal = (noteData) => {
 			const local = JSON.parse(localStorage.getItem(`task_data`)),
-				localJournal = local ? local[journal] : {},
-				localList = (local && local[journal]) ? local[journal][weekId] : {};
+				localJournal = local ? local[id[0]] : {},
+				localList = (local && local[id[0]]) ? local[id[0]][id[1]] : {};
 			localStorage.setItem(`task_data`, JSON.stringify({
 				...local,
-				[journal]: {
+				[id[0]]: {
 					...localJournal,
-					[weekId]: {
+					[id[1]]: {
 						...localList,
 						notes: noteData
 					}

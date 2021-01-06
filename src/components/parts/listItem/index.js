@@ -16,7 +16,7 @@ const Item = ({
 				type="checkbox"
 				name={`checkbox`}
 				defaultChecked={completed}
-				onChange={() => { functions.completeTask(ref); }}
+				onChange={(e) => { functions.completeTask(ref, e); }}
 				id={`${taskId}_checkbox`}
 			/>
 			<label
