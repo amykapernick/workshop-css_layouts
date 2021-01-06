@@ -1,16 +1,16 @@
 @use '../variables.scss';
 
 .header {
-	display: flex;
-	align-items: center;
-
+	padding: 20px;
 
 	a {
 		color: inherit;
 		text-decoration: none;
 
 		&:hover, &:focus {
+			padding: 10px;
 			background: variables.$purple;
+			color: #ffffff;
 		}
 	}
 
@@ -22,10 +22,6 @@
 
 	nav {
 		margin-left: 50px;
-
-		ul {
-			display: flex;
-		}
 
 		li {
 			margin: 10px 20px;

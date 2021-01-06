@@ -69,9 +69,8 @@ main .days .lists {
 
 .month {
 	display: grid;
-	grid-template-areas: 'date		goals		notes' 'calendar	calendar	calendar';
-	grid-template-columns: auto 1fr 1fr;
-	grid-template-rows: auto auto;
+	grid-template-areas: 'date date' 'goals			notes' 'calendar	calendar';
+	grid-template-columns: 1fr 2fr;
 }
 
 .month .month_view {
@@ -115,9 +114,12 @@ main .days .lists {
 
 main {
 	display: grid;
-	grid-template-areas: 'date_week	goals_week	date_month	events' 'day		goals_week	goals_month	events' 'notes_week notes_week	notes_month	notes_month';
+	grid-template-areas:
+		'date_week		goals_week 		goals_month		events'
+		'date_month		goals_week 		goals_month		events'
+		'day			goals_week		goals_month		events'
+		'notes_week 	notes_week		notes_month		notes_month';
 	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: repeat(3, auto);
 }
 
 main .goals_week {
@@ -154,5 +156,5 @@ main .date_month {
 
 main .date {
 	align-self: center;
-	justify-self: center;
+	justify-self: start;
 }

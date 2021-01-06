@@ -1,28 +1,12 @@
 @use '../variables.scss';
 
 .month {
-	display: grid;
-	grid-template-areas:
-		'date		goals		notes'
-		'calendar	calendar	calendar';
-	grid-template-columns: auto 1fr 1fr;
-	grid-template-rows: auto auto;
-
 	.month_view {
-		display: grid;
-		grid-gap: 10px;
-		grid-template-columns: repeat(7, 1fr);
 		margin: 0;
 		padding: 0;
-		// background: variables.$blue_light_50;
 		list-style: none;
 
 		.day {
-			display: flex;
-			grid-column-start: var(--offset);
-			grid-row-start: var(--row);
-			align-items: center;
-			justify-content: center;
 			border-color: variables.$darkpurple;
 			background: variables.$darkpurple_dark_50;
 
@@ -37,9 +21,6 @@
 
 		.event {
 			position: relative;
-			grid-column-end: var(--event_end);
-			grid-column-start: var(--event_start);
-			grid-row: var(--row);
 			align-self: start;
 			padding: 5px 10px;
 			border: 2px solid variables.$purple_dark_50;
@@ -99,24 +80,10 @@
 			}
 		}
 	}
-
-	.date {
-		grid-area: date;
-		align-self: start;
-	}
-
-	.goals {
-		grid-area: goals;
-	}
-
-	.notes {
-		grid-area: notes;
-	}
 }
 
 .calendar {
 	position: relative;
-	grid-area: calendar;
 	padding-top: 80px;
 
 	button.add {

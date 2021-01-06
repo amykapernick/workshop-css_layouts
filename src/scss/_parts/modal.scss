@@ -59,7 +59,7 @@
 	}
 
 	input {
-		flex: 1 1 auto;
+		flex: 1 1 45%;
 		padding: 10px 15px;
 		border: none;
 		border-bottom: 1px solid variables.$neutral_light_25;
@@ -67,7 +67,7 @@
 		font-size: 1.2em;
 
 		&[type='text'] {
-			flex: 1 1 300px;
+			flex: 1 1 auto;
 			margin: 0 10px;
 		}
 
