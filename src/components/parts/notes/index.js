@@ -1,18 +1,8 @@
 import React, {
-	useState, useRef, useEffect, Fragment
+	useState, useEffect, Fragment
 } from 'react';
-import { useLocation } from 'react-router-dom';
-
-import Add from '../../icons/add';
-import Delete from '../../icons/delete';
-import Edit from '../../icons/edit';
-import Close from '../../icons/close';
-import Check from '../../icons/check';
-import newTasks from '../../../_data/tasks';
-import uuid from '../../../utils/uuid';
 
 const Notes = ({ noteId }) => {
-	console.log(noteId);
 	const id = noteId.split(`_`).map((i) => i.toLowerCase()),
 	 localData = localStorage.getItem(`task_data`) ? JSON.parse(localStorage.getItem(`task_data`)) : false;
 
