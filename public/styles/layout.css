@@ -1,0 +1,85 @@
+main {
+	display: grid;
+}
+
+main.week {
+	grid-template-areas:
+		'date	days	days		days	days'
+		'goals	days	days		days	days'
+		'events	days	days		days	days'
+		'work	work	personal	self	notes';
+	grid-template-columns: 1fr 1fr 2fr 2fr 2fr;
+}
+
+main.week .date {
+	grid-area: date;
+}
+
+main.week .goals {
+	grid-area: goals
+}
+
+main.week .events {
+	grid-area: events;
+}
+
+main.week .work {
+	grid-area: work;
+}
+
+main.week .days {
+	grid-area: days;
+}
+
+main.week .personal {
+	grid-area: personal;
+}
+
+main.week .selfcare {
+	grid-area: self;
+}
+
+main.week .days .lists {
+	display: grid;
+
+	/* grid-template-columns: repeat(7, 1fr); */
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+main.month {
+	grid-template-areas: 'date goals notes' 'cal cal cal';
+	grid-template-columns: auto 1fr 1fr;
+}
+
+main.month .date {
+	grid-area: date
+}
+
+main.month .goals {
+	grid-area: goals;
+}
+
+main.month .notes {
+	grid-area: notes;
+}
+
+main.month .calendar {
+	grid-area: cal;
+}
+
+main.month .month_view {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(7, 1fr);
+}
+
+main.month .month_view .day {
+	grid-column: var(--offset);
+	grid-row: var(--row);
+}
+
+main.month .month_view .event {
+	grid-column-end: var(--event_end);
+	grid-column-start: var(--event_start);
+	grid-row: var(--row);
+}
