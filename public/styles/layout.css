@@ -1,0 +1,175 @@
+main {
+	display: grid;
+}
+
+main.week {
+	grid-template-areas:
+		'date	days	days		days	 days'
+		'goals	days	days		days	 days'
+		'events	days	days		days	 days'
+		'work	work	personal	selfcare notes';
+
+	/* grid-template-columns: 200px 200px 200px 200px 200px; */
+
+	/* grid-template-columns: 20% 20% 20% 20% 20%; */
+
+	/* grid-template-columns: repeat(5, 20%); */
+
+	/* grid-template-columns: repeat(5, 20% 10px); */
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(4, auto);
+}
+
+main.week .days {
+
+	/* grid-column-end: -1; */
+
+	/* grid-column-start: 2; */
+
+	/* grid-column: 2 / -1;
+	grid-row: 1 / 4; */
+}
+
+main.week .work {
+
+	/* grid-column: 1 / span 2; */
+}
+
+main.week .date {
+	grid-area: date;
+}
+
+main.week .goals {
+	grid-area: goals
+}
+
+main.week .events {
+	grid-area: events;
+}
+
+main.week .work {
+	grid-area: work;
+}
+
+main.week .days {
+	grid-area: days;
+}
+
+main.week .personal {
+	grid-area: personal;
+}
+
+main.week .selfcare {
+	grid-area: selfcare;
+}
+
+main.week .notes {
+	grid-area: notes;
+}
+
+main.week .days .lists {
+	display: flex;
+}
+
+@supports(grid-template-areas: '.') {
+	main.week .days .lists {
+		display: grid;
+
+		/* grid-template-columns: repeat(7, 1fr); */
+		grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	}
+}
+
+main.week .days .lists .day:last-child {
+	order: -1;
+}
+
+main {
+	grid-template-areas:
+		'date_week events date_month goals_month'
+		'current events goals_week goals_month'
+		'notes_week notes_week notes_month notes_month';
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: auto 1fr auto;
+	min-height: calc(100vh - 200px);
+}
+
+main .goals_week {
+	grid-area: goals_week;
+}
+
+main .goals_month {
+	grid-area: goals_month;
+}
+
+main .events {
+	grid-area: events;
+}
+
+main .notes_week {
+	grid-area: notes_week;
+}
+
+main .notes_month {
+	grid-area: notes_month;
+}
+
+main .current_day {
+	grid-area: current;
+}
+
+main.month {
+	grid-template-areas:
+		'month goals notes'
+		'month_view month_view month_view';
+	grid-template-columns: 1fr 1fr 2fr;
+	grid-template-rows: 300px 70vh;
+}
+
+main.month .calendar {
+	grid-area: month_view;
+}
+
+main.month .month_view {
+	display: grid;
+
+	/* grid-column-gap: 20px;
+	grid-row-gap: 20px; */
+	grid-gap: 20px;
+	grid-template-columns: repeat(7, 1fr);
+	align-items: center;
+}
+
+main.month .month_view .day {
+	grid-column-start: var(--offset);
+	grid-row-start: var(--row);
+	text-align: center;
+}
+
+main.month .month_view .event {
+	grid-column-end: var(--event_end);
+	grid-column-start: var(--event_start);
+	grid-row: var(--row);
+}
+
+main.month .month_view .day:before {
+	content: attr(data-day);
+	position: absolute;
+	z-index: 20;
+	top: 10px;
+}
+
+main.month .date {
+	align-self: start;
+	justify-self: center;
+}
+
+.header nav ul {
+	display: flex;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
