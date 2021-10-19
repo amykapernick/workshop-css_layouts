@@ -173,3 +173,12 @@ main.month .date {
 	align-items: center;
 	justify-content: space-between;
 }
+
+*:focus {
+	outline: 4px solid chartreuse;
+	outline-offset: 3px;
+}
+
+.header {
+	text-transform: uppercase;
+}

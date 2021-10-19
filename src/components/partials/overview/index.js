@@ -24,8 +24,8 @@ const Overview = ({ weekId, monthId, currentDay }) => (
 			<Notes noteId={`week_${weekId}`} />
 		</section>
 		<section className="notes_month">
-			<h2>Notes this Month</h2>
-			<Notes noteId={`month_${monthId}`} />
+			<h2 id="notes_month">Notes this Month</h2>
+			<Notes label="notes_month" noteId={`month_${monthId}`} />
 		</section>
 		<section className="current_day section">
 			<h2>{fullDays[currentDay]}</h2>

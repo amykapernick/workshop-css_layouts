@@ -1,0 +1,4 @@
+- name: Overview
+  url: http://localhost:1234
+- name: Weekly View
+  url: http://localhost:1234/week

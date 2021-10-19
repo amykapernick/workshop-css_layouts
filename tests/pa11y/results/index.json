@@ -1,0 +1,186 @@
+{
+	"documentTitle": "Bullet Journal",
+	"pageUrl": "http://localhost:1234/",
+	"issues": [
+		{
+			"code": "WCAG2AAA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+			"context": "<input type=\"text\" placeholder=\"New Task\" name=\"week_18-Oct-2021_goals_newTask\">",
+			"selector": "#app > main > section:nth-child(4) > div > form:nth-child(2) > input",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AAA.Principle1.Guideline1_3.1_3_1.F68",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This form field should be labelled in some way. Use the label element (either with a \"for\" attribute or wrapped around the form field), or \"title\", \"aria-label\" or \"aria-labelledby\" attributes as appropriate.",
+			"context": "<input type=\"text\" placeholder=\"New Task\" name=\"week_18-Oct-2021_goals_newTask\">",
+			"selector": "#app > main > section:nth-child(4) > div > form:nth-child(2) > input",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AAA.Principle4.Guideline4_1.4_1_2.H91.Textarea.Name",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This textarea element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+			"context": "<textarea class=\"multiple\" name=\"week_18-Oct-2021_goals_newTask\">Task 1\nTask 2\nTask 3</textarea>",
+			"selector": "#app > main > section:nth-child(4) > div > form:nth-child(3) > textarea",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AAA.Principle1.Guideline1_3.1_3_1.F68",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This form field should be labelled in some way. Use the label element (either with a \"for\" attribute or wrapped around the form field), or \"title\", \"aria-label\" or \"aria-labelledby\" attributes as appropriate.",
+			"context": "<textarea class=\"multiple\" name=\"week_18-Oct-2021_goals_newTask\">Task 1\nTask 2\nTask 3</textarea>",
+			"selector": "#app > main > section:nth-child(4) > div > form:nth-child(3) > textarea",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AAA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+			"context": "<input type=\"text\" placeholder=\"New Task\" name=\"month_Oct-2021_goals_newTask\">",
+			"selector": "#app > main > section:nth-child(5) > div > form:nth-child(2) > input",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AAA.Principle1.Guideline1_3.1_3_1.F68",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This form field should be labelled in some way. Use the label element (either with a \"for\" attribute or wrapped around the form field), or \"title\", \"aria-label\" or \"aria-labelledby\" attributes as appropriate.",
+			"context": "<input type=\"text\" placeholder=\"New Task\" name=\"month_Oct-2021_goals_newTask\">",
+			"selector": "#app > main > section:nth-child(5) > div > form:nth-child(2) > input",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AAA.Principle4.Guideline4_1.4_1_2.H91.Textarea.Name",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This textarea element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+			"context": "<textarea class=\"multiple\" name=\"month_Oct-2021_goals_newTask\">Task 1\nTask 2\nTask 3</textarea>",
+			"selector": "#app > main > section:nth-child(5) > div > form:nth-child(3) > textarea",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AAA.Principle1.Guideline1_3.1_3_1.F68",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This form field should be labelled in some way. Use the label element (either with a \"for\" attribute or wrapped around the form field), or \"title\", \"aria-label\" or \"aria-labelledby\" attributes as appropriate.",
+			"context": "<textarea class=\"multiple\" name=\"month_Oct-2021_goals_newTask\">Task 1\nTask 2\nTask 3</textarea>",
+			"selector": "#app > main > section:nth-child(5) > div > form:nth-child(3) > textarea",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AAA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+			"context": "<input type=\"text\" placeholder=\"New Task\" name=\"week_18-Oct-2021_events_newTask\">",
+			"selector": "#app > main > section:nth-child(6) > div > form:nth-child(2) > input",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AAA.Principle1.Guideline1_3.1_3_1.F68",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This form field should be labelled in some way. Use the label element (either with a \"for\" attribute or wrapped around the form field), or \"title\", \"aria-label\" or \"aria-labelledby\" attributes as appropriate.",
+			"context": "<input type=\"text\" placeholder=\"New Task\" name=\"week_18-Oct-2021_events_newTask\">",
+			"selector": "#app > main > section:nth-child(6) > div > form:nth-child(2) > input",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AAA.Principle4.Guideline4_1.4_1_2.H91.Textarea.Name",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This textarea element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+			"context": "<textarea class=\"multiple\" name=\"week_18-Oct-2021_events_newTask\">Task 1\nTask 2\nTask 3</textarea>",
+			"selector": "#app > main > section:nth-child(6) > div > form:nth-child(3) > textarea",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AAA.Principle1.Guideline1_3.1_3_1.F68",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This form field should be labelled in some way. Use the label element (either with a \"for\" attribute or wrapped around the form field), or \"title\", \"aria-label\" or \"aria-labelledby\" attributes as appropriate.",
+			"context": "<textarea class=\"multiple\" name=\"week_18-Oct-2021_events_newTask\">Task 1\nTask 2\nTask 3</textarea>",
+			"selector": "#app > main > section:nth-child(6) > div > form:nth-child(3) > textarea",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AAA.Principle4.Guideline4_1.4_1_2.H91.Textarea.Name",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This textarea element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+			"context": "<textarea name=\"notes\">notes</textarea>",
+			"selector": "#app > main > section:nth-child(7) > textarea",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AAA.Principle1.Guideline1_3.1_3_1.F68",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This form field should be labelled in some way. Use the label element (either with a \"for\" attribute or wrapped around the form field), or \"title\", \"aria-label\" or \"aria-labelledby\" attributes as appropriate.",
+			"context": "<textarea name=\"notes\">notes</textarea>",
+			"selector": "#app > main > section:nth-child(7) > textarea",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AAA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+			"context": "<input type=\"text\" placeholder=\"New Task\" name=\"week_18-Oct-2021_tuesday_newTask\">",
+			"selector": "#app > main > section:nth-child(9) > div > form:nth-child(2) > input",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AAA.Principle1.Guideline1_3.1_3_1.F68",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This form field should be labelled in some way. Use the label element (either with a \"for\" attribute or wrapped around the form field), or \"title\", \"aria-label\" or \"aria-labelledby\" attributes as appropriate.",
+			"context": "<input type=\"text\" placeholder=\"New Task\" name=\"week_18-Oct-2021_tuesday_newTask\">",
+			"selector": "#app > main > section:nth-child(9) > div > form:nth-child(2) > input",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AAA.Principle4.Guideline4_1.4_1_2.H91.Textarea.Name",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This textarea element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+			"context": "<textarea class=\"multiple\" name=\"week_18-Oct-2021_tuesday_newTask\">Task 1\nTask 2\nTask 3</textarea>",
+			"selector": "#app > main > section:nth-child(9) > div > form:nth-child(3) > textarea",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		},
+		{
+			"code": "WCAG2AAA.Principle1.Guideline1_3.1_3_1.F68",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This form field should be labelled in some way. Use the label element (either with a \"for\" attribute or wrapped around the form field), or \"title\", \"aria-label\" or \"aria-labelledby\" attributes as appropriate.",
+			"context": "<textarea class=\"multiple\" name=\"week_18-Oct-2021_tuesday_newTask\">Task 1\nTask 2\nTask 3</textarea>",
+			"selector": "#app > main > section:nth-child(9) > div > form:nth-child(3) > textarea",
+			"runner": "htmlcs",
+			"runnerExtras": {}
+		}
+	]
+}

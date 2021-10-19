@@ -5,7 +5,8 @@
   "scripts": {
     "start": "parcel public/index.html --dist-dir dist",
     "build": "parcel build public/index.html",
-    "clean": "rm -rf .parcel-cache dist"
+    "clean": "rm -rf .parcel-cache dist",
+    "test:pa11y": "node tests/pa11y"
   },
   "author": "Amy Kapernick <amy@kapers.dev> (https://amyskapers.dev)",
   "license": "MIT",
@@ -19,6 +20,8 @@
     "eslint-loader": "^4.0.2",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-react": "^7.26.1",
+    "file-system": "^2.2.2",
+    "pa11y": "^6.0.1",
     "parcel": "^2.0.0-beta.1",
     "parcel-plugin-static-files-copy": "^2.6.0",
     "react": "^17.0.2",
@@ -34,6 +37,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
+    "@percy/cli": "^1.0.0-beta.69",
     "sass": "^1.43.2"
   },
   "staticFiles": {

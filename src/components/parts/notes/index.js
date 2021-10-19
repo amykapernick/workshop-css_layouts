@@ -2,7 +2,7 @@ import React, {
 	useState, useEffect, Fragment
 } from 'react';
 
-const Notes = ({ noteId }) => {
+const Notes = ({ noteId, label }) => {
 	const id = noteId.split(`_`).map((i) => i.toLowerCase()),
 	 localData = localStorage.getItem(`task_data`) ? JSON.parse(localStorage.getItem(`task_data`)) : false;
 
@@ -50,6 +50,7 @@ const Notes = ({ noteId }) => {
 		<Fragment>
 			<label className="sr-only">Edit Notes</label>
 			<textarea
+				aria-labelledby={label}
 				name="notes"
 				onChange={(e) => { changeLabel(e); }}
 				defaultValue={notes}
